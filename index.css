@@ -1,0 +1,1958 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #292929!important;
+}
+.float { float: left; }
+
+/*====== SIGNIKA ======*/
+@font-face {
+    font-family: Signika;
+    src: url(./res/fonts/Signika/Signika-VariableFont_wght.ttf);
+}
+/*====== PHILOSOPHER-REGULAR ======*/
+@font-face {
+    font-family: Philosopher-Regular;
+    src: url(./res/fonts/Philosopher/Philosopher-Regular.ttf);
+}
+/*====== ROBOTO-BOLD,LIGHT,MEDIUM,REGULAR ======*/
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./res/fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(./res/fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./res/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./res/fonts/Roboto/Roboto-Medium.ttf);
+}
+/*====== ALMARAI-LIGHT,REGULAR ======*/
+@font-face {
+    font-family: Almarai-Light;
+    src: url(./res/fonts/Almarai/Almarai-Light.ttf);
+}
+@font-face {
+    font-family: Almarai-Regular;
+    src: url(./res/fonts/Almarai/Almarai-Regular.ttf);
+}
+/*============================================================*/
+/*===================         HEADER        ==================*/
+/*============================================================*/
+#FRAME-ONE {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+#FRAME-TWO {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    opacity: 0.5;
+    z-index: 0;
+}
+#IMG-F1, #IMG-F2 {
+    width: 100%;
+    height: auto;
+}
+#IMG-F1-MOBILE, #IMG-F2-MOBILE {
+    width: 100%;
+    height: auto;
+}
+/*==================================================*/
+/*=================== NAVIGATION ===================*/
+/*==================================================*/
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgb(26, 26, 26, 0.02);
+    border-bottom: 1px solid rgb(10, 10, 10, 0.02);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navbar {
+    /* background-color: black; */
+    padding: 0%!important;
+}
+#box-brand {
+    width: 60%;
+    height: 50px;
+}
+.navbar-brand {
+    padding: 0!important;
+    margin: 0!important;
+    /* background-color: orange; */
+    font-family: Roboto-Bold!important;
+}
+.navbar-toggler {
+    outline: none!important;
+}
+.navbar-collapse {
+    width: 30%;
+}
+.navbar-nav {
+    /* background-color: rgb(0, 21, 184); */
+    width: 100%;
+    display: flex!important;
+    justify-content: space-between!important;
+}
+.nav-item {
+    /* background-color: rgb(218, 142, 115); */
+    padding: 0%!important;
+}
+.nav-link {
+    padding: 0%!important;
+    margin: 0%!important;
+    color: rgb(196, 196, 196)!important;
+    font-family: Roboto-Bold;
+}
+@media (min-width: 100px) and (max-width: 390px){
+    #IMG-F1, #IMG-F2 {
+        display: none;
+    }
+    /*==========*/
+    .navbar-brand {
+        font-size: 20px!important;
+        margin-top: 7.5px!important;
+        margin-left: 15px!important;
+    }
+    /*==========*/
+    .navbar-toggler {
+        margin-right: 15px!important;
+    }
+    /*==========*/
+    .navbar-collapse {
+        height: auto;
+    }
+    .nav-item {
+        margin-left: 15px;
+    }
+    .nav-link {
+        font-size: 15px;
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+}
+@media (min-width: 391px) and (max-width: 575px){
+    #IMG-F1, #IMG-F2 {
+        display: none;
+    }
+    /*==========*/
+    .navbar-brand {
+        font-size: 20px!important;
+        margin-top: 7.5px!important;
+        margin-left: 30px!important;
+    }
+    /*==========*/
+    .navbar-toggler {
+        margin-right: 30px!important;
+    }
+    /*==========*/
+    .navbar-collapse {
+        height: auto;
+    }
+    .nav-item {
+        margin-left: 30px;
+    }
+    .nav-link {
+        font-size: 15px;
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    #IMG-F1, #IMG-F2 {
+        display: none;
+    }
+    /*==========*/
+    .navbar-brand {
+        font-size: 20px!important;
+        margin-top: 7.5px!important;
+        margin-left: 50px!important;
+    }
+    /*==========*/
+    .navbar-toggler {
+        margin-right: 50px!important;
+    }
+    /*==========*/
+    .navbar-collapse {
+        height: auto;
+    }
+    .nav-item {
+        margin-left: 50px;
+    }
+    .nav-link {
+        font-size: 15px;
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #IMG-F1, #IMG-F2 {
+        display: none;
+    }
+    /*==========*/
+    .navbar-brand {
+        font-size: 20px!important;
+        margin-top: 7.5px!important;
+        margin-left: 50px!important;
+    }
+    /*==========*/
+    .navbar-toggler {
+        margin-right: 50px!important;
+    }
+    /*==========*/
+    .navbar-collapse {
+        height: auto;
+    }
+    .nav-item {
+        margin-left: 50px;
+    }
+    .nav-link {
+        font-size: 15px;
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    #IMG-F1-MOBILE, #IMG-F2-MOBILE {
+        display: none;
+    }
+    /*==========*/
+    #box-brand {
+        margin-left: 70px;
+    }
+    .navbar-brand {
+        font-size: 20px!important;
+        margin-top: 7.5px!important;
+    }
+    /*==========*/
+    .navbar-collapse {
+        margin-right: 70px;
+    }
+    .nav-link {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px){
+    #IMG-F1-MOBILE, #IMG-F2-MOBILE {
+        display: none;
+    }
+    /*==========*/
+    #box-brand {
+        margin-left: 100px;
+    }
+    .navbar-brand {
+        font-size: 23px!important;
+        margin-top: 6.75px!important;
+        width: 65%;
+    }
+    /*==========*/
+    .navbar-collapse {
+        margin-right: 100px;
+        width: 25%;
+    }
+    .nav-link {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1999px){
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#IMG-F1-MOBILE, #IMG-F2-MOBILE {
+    display: none;
+}
+/*==========*/
+#box-brand {
+    margin-left: 150px;
+    width: 65%;
+}
+.navbar-brand {
+    font-size: 25px!important;
+    margin-top: 6px!important;
+}
+/*==========*/
+.navbar-collapse {
+    margin-right: 150px;
+    width: 25%;
+}
+.nav-link {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+}
+/*============================================================*/
+/*===================          MAIN         ==================*/
+/*============================================================*/
+main {
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+    position: relative;
+    /* background-color: rgba(181, 14, 14, 0.5); */
+}
+/*===============*/
+/*== SCL GROUP ==*/
+/*===============*/
+.SCL-1568 {
+    position: relative;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.T-DL1568 {
+    font-family: Signika;
+    color: white;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+.SC-SPANs {
+    color: rgb(13, 87, 197);
+}
+/*============== CONT-ONE =================*/
+/*=========================================*/
+#CONT-ONE {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /*==========*/
+        margin-bottom: 25px;
+    /*==========*/
+}
+/*============== CONT-TWO =================*/
+/*=========================================*/
+#CONT-TWO {
+    position: relative;
+    width: 100%;
+        /*====*/
+        /* background-color: rgb(82, 174, 77); */
+        margin-bottom: 50px;
+        /*====*/
+}
+.SC-TWO {
+    width: 100%;
+}
+#SC1-TWO {
+    height: auto;
+}
+.SC1-TWO-P {
+    font-family: Philosopher-Regular;
+    margin-bottom: 0px;
+    color: white;
+}
+#SC1-TWO-P1 {
+    text-align: center;
+}
+#SC1-TWO-P2 {
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 35px;
+}
+#SC2-TWO {
+    height: auto;
+    text-align: center;
+}
+#SC2-TWO-IMG {
+    width: auto;
+}
+/*============== CONT-THREE =================*/
+/*===========================================*/
+#CONT-THREE {
+    height: auto;
+    width: 100%;
+    position: relative;
+        /*====*/
+        /* background-color: rgb(47, 160, 85); */
+        /*====*/
+}
+#SC-THREE-P {
+    text-align: center;
+    font-family: Almarai-Light;
+    color: #9F9F9F;
+}
+/*============== CONT-FOUR =================*/
+/*==========================================*/
+#CONT-FOUR {
+    width: 100%;
+    height: auto;
+    text-align: center;
+        /*====*/
+        margin-bottom: 50px;
+        /*====*/
+}
+#SC-FOUR-IMG {
+    width: 100%;
+    height: auto;
+}
+/*============== SERVICES =================*/
+/*==========================================*/
+#SERVICES {
+    width: 100%;
+    height: 1100px;
+        /*====*/
+        padding-top: 25px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        /*====*/
+}
+#SC1-FIVE {
+    height: auto;
+    width: auto;
+    font-family: Almarai-Light;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    letter-spacing: 5px;
+}
+#SC2-FIVE {
+    width: auto;
+    height: auto;
+}
+.SC2-FIVE-ULs {
+    width: 100%;
+    list-style: none;
+}
+.SC2-FIVE-LI {
+    width: 100%;
+}
+.SC2-FIVE-DIV-IMG {
+    width: 100%;
+    text-align: center;
+}
+.SC2-FIVE-IMG {
+    width: auto;
+    height: 64px;
+}
+.SC2-FIVE-T {
+    height: auto;
+    width: 100%;
+    font-family: Roboto-Light;
+    color: white;
+}
+/*============== WORKS =================*/
+/*=========================================*/
+#WORKS {
+    width: 100%;
+    height: auto;
+        /*====*/
+        padding-top: 50px;
+        margin-bottom: 50px;
+        /*====*/
+}
+#SC1-SIX-P {
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    color: white;
+    font-family: Almarai-Light;
+    line-height: 30px;
+    text-align: justify;
+}
+#SC2-SIX-DIV {
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+.SC2-SIX-SD {
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.SC2-SIX-IMG {
+    width: 100%;
+    height: auto;
+}
+.SC2-SIX-H1 {
+    text-align: left;
+    color: black;
+    font-family: Roboto-Bold;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.SC2-SIX-P {
+    text-align: left;
+    font-family: Roboto-Bold;
+    color: #7A7A7A;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+/*============== WORKS =================*/
+/*=========================================*/
+#CONT-SEVEN {
+    width: 100%;
+    height: auto;
+        /*====*/
+        margin-bottom: 50px;
+        /*====*/
+}
+.SC-SEVEN-P {
+    font-family: Signika;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+@media (min-width: 100px) and (max-width: 390px){
+    /*=========================================*/
+    /*============== CONT-ONE =================*/
+    main {
+        padding-top: 25px;
+    }
+    #CONT-ONE {
+        padding-top: 15px;
+        padding-bottom: 25px;
+        height: auto;
+    }
+    .SCL-1568 {
+        margin-left: 15px;
+        height: auto;
+    }
+    .T-DL1568 {
+        font-size: 20px;
+    }
+    /*=========================================*/
+    /*============== CONT-TWO =================*/
+    #CONT-TWO {
+        height: 650px;
+    }
+    .SC1-TWO-P {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 75px;
+    }
+    #SC1-TWO-P1 {
+        font-size: 30px;
+    }
+    #SC1-TWO-P2 {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    #SC2-TWO {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    #SC2-TWO-IMG {
+        height: 200px;
+    }
+    /*===========================================*/
+    /*============== CONT-THREE =================*/
+    #SC-THREE-P {
+        font-size: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 85px;
+    }
+    /*==========================================*/
+    /*============== CONT-FOUR =================*/
+    #CONT-FOUR {
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    /*=========================================*/
+    /*============== SERVICES =================*/
+    #SERVICES {
+        height: 750px;
+        margin-bottom: 0px;
+    }
+    .SC-FIVE {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #SC1-FIVE {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 40px;
+    }
+    #SC2-FIVE {
+        height: 500px;
+    }
+    .SC2-FIVE-ULs {
+        height: auto;
+        width: 50%;
+        float: left;
+        margin-bottom: 70px;
+    }
+    .SC2-FIVE-LI {
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .SC2-FIVE-T {
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    /*=========================================*/
+    /*============== WORKS =================*/
+    #SC1-SIX-P {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #SC2-SIX-DIV {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .SC2-SIX-H1 {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 2.5px;
+    }
+    .SC2-SIX-P {
+        padding-top: 2.5px;
+        padding-bottom: 20px;
+        font-size: 13px;
+    }
+    .SC2-SIX-H1P {
+        padding-left: 20px;
+    }
+    /*===========================================*/
+    /*============== CONT-SEVEN =================*/
+    .SC-SEVEN-P {
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (min-width: 391px) and (max-width: 575px){
+    /*=========================================*/
+    /*============== CONT-ONE =================*/
+    .SCL-1568 {
+        margin-left: 30px;
+        height: auto;
+    }
+    .T-DL1568 {
+        font-size: 22px;
+    }
+    /*=========================================*/
+    /*============== CONT-TWO =================*/
+    #CONT-TWO {
+        height: 800px;
+    }
+    .SC1-TWO-P {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 100px;
+    }
+    #SC1-TWO-P1 {
+        font-size: 35px;
+    }
+    #SC1-TWO-P2 {
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    #SC2-TWO-IMG {
+        height: 325px;
+        padding-top: 50px;
+    }
+    /*===========================================*/
+    /*============== CONT-THREE =================*/
+    #SC-THREE-P {
+        font-size: 35px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 85px;
+    }
+    /*==========================================*/
+    /*============== CONT-FOUR =================*/
+    #CONT-FOUR {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    /*=========================================*/
+    /*============== SERVICES =================*/
+    #SERVICES {
+        height: 800px;
+        margin-bottom: 0px;
+    }
+    .SC-FIVE {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #SC1-FIVE {
+        font-size: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 50px;
+    }
+    #SC2-FIVE {
+        height: 500px;
+    }
+
+    .SC2-FIVE-ULs {
+        height: auto;
+        width: 50%;
+        float: left;
+        margin-bottom: 70px;
+    }
+    .SC2-FIVE-LI {
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .SC2-FIVE-T {
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    /*=========================================*/
+    /*============== WORKS =================*/
+    #SC1-SIX-P {
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #SC2-SIX-DIV {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .SC2-SIX-H1 {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 2.5px;
+    }
+    .SC2-SIX-P {
+        font-size: 13px;
+        padding-top: 2.5px;
+        padding-bottom: 15px;
+    }
+    .SC2-SIX-H1P {
+        padding-left: 20px;
+    }
+    /*===========================================*/
+    /*============== CONT-SEVEN =================*/
+    .SC-SEVEN-P {
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    /*=========================================*/
+    /*============== CONT-ONE =================*/
+    .SCL-1568 {
+        margin-left: 50px;
+        height: auto;
+    }
+    .T-DL1568 {
+        font-size: 23px;
+    }
+    /*=========================================*/
+    /*============== CONT-TWO =================*/
+    #CONT-TWO {
+        height: 950px;
+    }
+    .SC1-TWO-P {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+    #SC1-TWO-P1 {
+        font-size: 45px;
+    }
+    #SC1-TWO-P2 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    #SC2-TWO-IMG {
+        margin-top: 50px;
+        height: 300px;
+    }
+    /*===========================================*/
+    /*============== CONT-THREE =================*/
+    #SC-THREE-P {
+        font-size: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 185px;
+    }
+    /*==========================================*/
+    /*============== CONT-FOUR =================*/
+    #CONT-FOUR {
+        width: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    /*=========================================*/
+    /*============== SERVICES =================*/
+    #SERVICES {
+        height: 700px;
+    }
+    #SC1-FIVE {
+        font-size: 17px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #SC2-FIVE {
+        height: 500px;
+    }
+    .SC2-FIVE-ULs {
+        height: 300px;
+        margin-bottom: 70px;
+    }
+    #SC2-FIVE-UL2 {
+        height: 115px;
+    }
+    .SC2-FIVE-LI {
+        float: left;
+        width: 50%;
+        height: auto;
+        margin-bottom: 70px;
+    }
+    #SC2-FIVE-LI3 {
+        margin-left: 25%;
+    }
+    .SC2-FIVE-T {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    /*=========================================*/
+    /*============== WORKS =================*/
+    #SC1-SIX-P {
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #SC2-SIX-DIV {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .SC2-SIX-H1 {
+        font-size: 19px;
+        padding-top: 20px;
+        padding-bottom: 2.5px;
+    }
+    .SC2-SIX-P {
+        font-size: 15px;
+        padding-bottom: 20px;
+        padding-top: 2.5px;
+    }
+    .SC2-SIX-H1P {
+        padding-left: 25px;
+    }
+    /*===========================================*/
+    /*============== CONT-SEVEN =================*/
+    .SC-SEVEN-P {
+        font-size: 17px;;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    /*=========================================*/
+    /*============= CONT-1568 =================*/
+    .SCL-1568 {
+        margin-left: 50px;
+        height: auto;
+    }
+    .T-DL1568 {
+        font-size: 24px;
+    }
+    /*=========================================*/
+    /*============== CONT-TWO =================*/
+    #CONT-TWO {
+        height: 950px;
+    }
+    .SC1-TWO-P {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+    #SC1-TWO-P1 {
+        font-size: 55px;
+    }
+    #SC1-TWO-P2 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    #SC2-TWO {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    #SC2-TWO-IMG {
+        height: 350px;
+    }
+    /*===========================================*/
+    /*============== CONT-THREE =================*/
+    #CONT-THREE {
+        padding-top: 100px;
+    }
+    #SC-THREE-P {
+        font-size: 55px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 200px;
+    }
+    /*==========================================*/
+    /*============== CONT-FOUR =================*/
+    #CONT-FOUR {
+        width: auto;
+        margin-bottom: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    /*=========================================*/
+    /*============== SERVICES =================*/
+    #SERVICES {
+        padding-top: 50px;
+        height: 550px;
+    }
+    .SC-FIVE {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    #SC1-FIVE {
+        font-size: 19px;
+        padding-top: 50px;
+        text-align: left;
+    }
+    #SC2-FIVE {
+        height: 300px;
+    }
+    .SC2-FIVE-ULs {
+        height: 100px;
+        margin-bottom: 70px;
+    }
+    .SC2-FIVE-LI {
+        margin-right: 80px;
+        width: auto;
+        height: 100px;
+        float: left;
+    }
+    .SC2-FIVE-DIV-IMG {
+        height: 100px;
+    }
+    .SC2-FIVE-T {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-top: 13px;
+    }
+    /*=========================================*/
+    /*============== WORKS =================*/
+    #SC1-SIX-P {
+        font-size: 19px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #SC2-SIX-DIV {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .SC2-SIX-H1 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 2.5px;
+    }
+    .SC2-SIX-P {
+        font-size: 15px;
+        padding-top: 2.5px;
+        padding-bottom: 20px;
+    }
+    .SC2-SIX-H1P {
+        padding-left: 25px;
+    }
+    /*===========================================*/
+    /*============== CONT-SEVEN =================*/
+    .SC-SEVEN-P {
+        font-size: 19px;;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    /*=========================================*/
+    /*============== CONT-ONE =================*/
+    .SCL-1568 {
+        margin-left: 70px;
+        height: auto;
+    }
+    .T-DL1568 {
+        font-size: 25px;
+    }
+    /*=========================================*/
+    /*============== CONT-TWO =================*/
+    #CONT-TWO {
+        height: 750px;
+    }
+    .SC-TWO {
+        width: 50%;
+    }
+    .SC1-TWO-P {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+    #SC1-TWO-P1 {
+        font-size: 45px;
+    }
+    #SC1-TWO-P2 {
+        font-size: 20px;
+    }
+    #SC2-TWO-IMG {
+        height: 300px;
+    }
+    /*===========================================*/
+    /*============== CONT-THREE =================*/
+    #SC-THREE-P {
+        font-size: 60px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 285px;
+    }
+    /*==========================================*/
+    /*============== CONT-FOUR =================*/
+    #CONT-FOUR {
+        width: auto;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    /*=========================================*/
+    /*============== SERVICES =================*/
+    #SERVICES {
+        height: 500px;
+    }
+    .SC-FIVE {
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    #SC1-FIVE {
+        font-size: 19px;
+        text-align: left;
+    }
+    #SC2-FIVE {
+        height: 300px;
+    }
+
+
+
+    .SC2-FIVE-ULs {
+        height: 100px;
+        margin-bottom: 70px;
+    }
+    .SC2-FIVE-LI {
+        margin-right: 70px;
+        width: auto;
+        height: 100px;
+        float: left;
+    }
+    .SC2-FIVE-DIV-IMG {
+        height: 100px;
+    }
+    .SC2-FIVE-T {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-top: 13px;
+    }
+
+    /*=========================================*/
+    /*============== WORKS =================*/
+    #SC1-SIX-P {
+        font-size: 18px;
+        letter-spacing: 2.5px;
+        line-height: 40px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    #SC2-SIX-DIV {
+        height: 300px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .SC2-SIX-SD {
+        height: auto;
+        width: 45%;
+        margin-right: 5%;
+        float: left;
+    }
+    .SC2-SIX-H1 {
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 2.5px;
+    }
+    .SC2-SIX-P {
+        font-size: 15px;
+        padding-top: 2.5px;
+        padding-bottom: 15px;
+    }
+    .SC2-SIX-H1P {
+        padding-left: 25px;
+    }
+    /*===========================================*/
+    /*============== CONT-SEVEN =================*/
+    .SC-SEVEN-P {
+        font-size: 18px;
+    }        
+}
+@media (min-width: 1200px) and (max-width: 1599px){
+    /*=========================================*/
+    /*============== CONT-ONE =================*/
+    .SCL-1568 {
+        margin-left: 100px;
+        height: auto;
+    }
+    .T-DL1568 {
+        font-size: 25px;
+    }
+    /*=========================================*/
+    /*============== CONT-TWO =================*/
+    #CONT-TWO {
+        height: 750px;
+    }
+    .SC-TWO {
+        width: 50%;
+    }
+    .SC1-TWO-P {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+    }
+    #SC1-TWO-P1 {
+        font-size: 50px;
+    }
+    #SC1-TWO-P2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #SC2-TWO {
+        height: auto;
+        text-align: center;
+    }
+    #SC2-TWO-IMG {
+        height: 350px;
+    }
+    /*===========================================*/
+    /*============== CONT-THREE =================*/
+    #SC-THREE-P {
+        font-size: 70px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 250px;
+    }
+    /*==========================================*/
+    /*============== CONT-FOUR =================*/
+    #CONT-FOUR {
+        width: auto;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    /*=========================================*/
+    /*============== SERVICES =================*/
+    #SERVICES {
+        height: 550px;
+        margin-top: 150px;
+        padding-top: 50px;
+    }
+    .SC-FIVE {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    #SC1-FIVE {
+        font-size: 20px;
+        text-align: left;
+        padding-top: 35px;
+    }
+    #SC2-FIVE {
+        width: 70%;
+        height: 300px;
+    }
+    .SC2-FIVE-ULs {
+        height: 100px;
+        margin-bottom: 70px;
+    }
+    .SC2-FIVE-LI {
+        margin-right: 70px;
+        width: auto;
+        height: 100px;
+        float: left;
+    }
+    .SC2-FIVE-DIV-IMG {
+        height: 100px;
+    }
+    .SC2-FIVE-T {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin-top: 13px;
+    }
+
+    /*=========================================*/
+    /*============== WORKS =================*/
+    #WORKS {
+        padding-top: 50px;
+    }
+    #SC1-SIX-P {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #SC2-SIX-DIV {
+        height: 350px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .SC2-SIX-SD {
+        height: auto;
+        width: 45%;
+        margin-right: 5%;
+        float: left;
+    }
+    .SC2-SIX-H1 {
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 2.5px;
+    }
+    .SC2-SIX-P {
+        font-size: 15px;
+        padding-top: 2.5px;
+        padding-bottom: 15px;
+    }
+    .SC2-SIX-H1P {
+        padding-left: 25px;
+    }
+    /*===========================================*/
+    /*============== CONT-SEVEN =================*/
+    .SC-SEVEN-P {
+        font-size: 20px;
+    }    
+}
+@media (min-width: 1600px) and (max-width: 1999px){
+    /*=========================================*/
+    /*============== CONT-ONE =================*/
+    #CONT-ONE {
+        margin-bottom: 50px;
+    }
+    .SCL-1568 {
+        margin-left: 150px;
+        height: auto;
+    }
+    .T-DL1568 {
+        font-size: 30px;
+    }
+    /*=========================================*/
+    /*============== CONT-TWO =================*/
+    #CONT-TWO {
+        height: 700px;
+    }
+    .SC-TWO {
+        width: 50%;
+    }
+    .SC1-TWO-P {
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 100px;
+    }
+    #SC1-TWO-P1 {
+        font-size: 55px;
+    }
+    #SC1-TWO-P2 {
+        font-size: 21px;
+        line-height: 50px;
+    }
+    #SC2-TWO-IMG {
+        height: 400px;
+    }
+    /*===========================================*/
+    /*============== CONT-THREE =================*/
+    #SC-THREE-P {
+        font-size: 80px;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 300px;
+    }
+    /*==========================================*/
+    /*============== CONT-FOUR =================*/
+    #CONT-FOUR {
+        width: auto;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    /*=========================================*/
+    /*============== SERVICES =================*/
+    #SERVICES {
+        padding-top: 50px;
+        height: 550px;
+        margin-top: 150px;
+    }
+    .SC-FIVE {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    #SC1-FIVE {
+        font-size: 20px;
+        text-align: left;
+        padding-top: 50px;
+    }
+    #SC2-FIVE {
+        width: 50%;
+        height: 300px;
+    }
+    .SC2-FIVE-ULs {
+        height: 100px;
+        margin-bottom: 70px;
+    }
+    .SC2-FIVE-LI {
+        margin-right: 15px;
+        width: 30%;
+        height: 100px;
+        float: left;
+    }
+    .SC2-FIVE-DIV-IMG {
+        height: 100px;
+    }
+    .SC2-FIVE-T {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        margin-top: 12px;
+    }
+    /*=========================================*/
+    /*============== WORKS =================*/
+    #WORKS {
+        padding-top: 50px;
+    }
+    #SC1-SIX-P {
+        font-size: 19px;
+        letter-spacing: 1.3px;
+        line-height: 45px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    #SC2-SIX-DIV {
+        height: 500px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .SC2-SIX-SD {
+        height: auto;
+        width: 40%;
+        margin-right: 5%;
+        float: left;
+    }
+    .SC2-SIX-H1 {
+        font-size: 20px;
+        padding-top: 25px;
+        padding-bottom: 5px;
+    }
+    .SC2-SIX-P {
+        font-size: 17px;
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
+    .SC2-SIX-H1P {
+        padding-left: 30px;
+    }
+    /*===========================================*/
+    /*============== CONT-SEVEN =================*/
+    .SC-SEVEN-P {
+        font-size: 25px;
+    }
+}
+/*============================================================*/
+/*===================         FOOTER        ==================*/
+/*============================================================*/
+footer {
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+#CONT-EIGHT {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    z-index: 10;
+}
+#SC1-EIGHT-H1 {
+    font-family: Almarai-Regular;
+    color: #008BEF;
+}
+#SC2-EIGHT-DIV {
+    height: 150px;
+    width: auto;
+    margin-bottom: 50px;
+}
+#SC2-EIGHT-P1 {
+    color: white;
+    font-family: Roboto-Regular;
+    letter-spacing: 1px;
+}
+.SC23-P12 {
+    width: 100%;
+    margin-top: 25px;
+}
+#SC3-EIGHT-DIV {
+    width: auto;
+}
+.SC3-EIGHT-1DIV {
+    width: 50%;
+    float: left;
+}
+.SC3-EIGHT-INPT {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    font-family: Roboto-Medium;
+    color: rgb(255, 255, 255);
+}
+#SC3-EIGHT-INPT5 {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    position: relative;
+    padding: 0%;
+    color: white;
+    font-family: Roboto-Regular;
+    text-transform: uppercase;
+}
+#SC3-EIGHT-INPT5:focus {
+    outline: 1px rgb(252, 252, 252) solid;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#SC4-EIGHT-P {
+    width: auto;
+    position: relative;
+    bottom: 0px;
+    color: rgb(206, 206, 206);
+    text-transform: uppercase;
+    font-family: Roboto-Medium;
+    letter-spacing: 1px;
+    text-align: center;
+    z-index: 5;
+}
+
+@media (min-width: 100px) and (max-width: 390px){
+    #CONT-EIGHT {
+        height: 730px;
+    }
+    #SC1-EIGHT-H1 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+    #SC2-EIGHT-DIV {
+        height: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 50px;
+    }
+    #SC2-EIGHT-P1 {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    #SC3-EIGHT-P2 {
+        margin: 0px;
+    }
+    .SC3-EIGHT-IMG {
+        width: auto;
+        height: 32px;
+    }
+    .SC3-EIGHT-SPAN {
+        padding-right: 25px;
+    }
+    #SC3-EIGHT-DIV {
+        height: 400px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .SC3-EIGHT-1DIV {
+        height: auto;
+        width: 100%;
+    }
+    .SC3-EIGHT-INPT {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    .SC3-EIGHT-INPT:focus {
+        outline: gray 1px solid;
+    }
+    #SC3-EIGHT-INPT2 {
+        height: 100px;
+        padding-top: 10px;
+    }
+    #SC3-EIGHT-INPT5 {
+        width: 40%;
+        height: 45px;
+        font-size: 13px;
+    }
+    #SC4-EIGHT-P {
+        height: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 25px;
+    }
+    #SC4-EIGHT-SPAN {
+        font-size: 10px;
+    }
+
+}
+@media (min-width: 391px) and (max-width: 575px){
+    footer {
+        height: 900px;
+    }
+    #CONT-EIGHT {
+        height: 800px;
+    }
+    #SC1-EIGHT-H1 {
+        font-size: 23px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    #SC2-EIGHT-DIV {
+        height: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 75px;
+    }
+    #SC2-EIGHT-P1 {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    #SC3-EIGHT-P2 {
+        margin: 0px;
+    }
+    .SC3-EIGHT-IMG {
+        width: auto;
+        height: 32px;
+    }
+    .SC3-EIGHT-SPAN {
+        padding-right: 25px;
+    }
+    #SC3-EIGHT-DIV {
+        height: 425px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .SC3-EIGHT-1DIV {
+        height: auto;
+        width: 100%;
+    }
+    .SC3-EIGHT-INPT {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .SC3-EIGHT-INPT:focus {
+        outline: gray 1px solid;
+    }
+    #SC3-EIGHT-INPT2 {
+        height: 100px;
+        padding-top: 15px;
+    }
+    #SC3-EIGHT-INPT5 {
+        width: 40%;
+        height: 55px;
+        font-size: 16px;
+    }
+    #SC4-EIGHT-P {
+        height: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+    #SC4-EIGHT-SPAN {
+        font-size: 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    footer {
+        margin-top: 100px;
+        height: 1000px;
+    }
+    #CONT-EIGHT {
+        height: 900px;
+    }
+    #SC1-EIGHT-H1 {
+        font-size: 24px;
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+    #SC2-EIGHT-DIV {
+        height: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 75px;
+    }
+    #SC2-EIGHT-P1 {
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    #SC3-EIGHT-P2 {
+        margin: 0px;
+    }
+    .SC3-EIGHT-IMG {
+        width: auto;
+        height: 32px;
+    }
+    #SC3-EIGHT-DIV {
+        height: 450px;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .SC3-EIGHT-SPAN {
+        padding-right: 25px;
+    }
+    .SC3-EIGHT-1DIV {
+        height: auto;
+        width: 100%;
+    }
+    .SC3-EIGHT-INPT {
+        width: 100%;
+        height: 60px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .SC3-EIGHT-INPT:focus {
+        outline: gray 1px solid;
+    }
+    #SC3-EIGHT-INPT2 {
+        height: 120px;
+        padding-top: 15px;
+    }
+    #SC3-EIGHT-INPT5 {
+        width: 40%;
+        height: 65px;
+        font-size: 17px;
+    }
+    #SC4-EIGHT-P {
+        height: 100px;
+        padding-top: 43px;
+    }
+    #SC4-EIGHT-SPAN {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    footer {
+        height: 1100px;
+    }
+    #CONT-EIGHT {
+        height: 1000px;
+    }
+    #SC1-EIGHT-H1 {
+        font-size: 27px;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+    #SC2-EIGHT-DIV {
+        height: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 75px;
+    }
+    #SC2-EIGHT-P1 {
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    #SC3-EIGHT-P2 {
+        margin: 0px;
+    }
+    .SC3-EIGHT-IMG {
+        width: auto;
+        height: 42px;
+    }
+    #SC3-EIGHT-DIV {
+        height: 500px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+    }
+    .SC3-EIGHT-SPAN {
+        padding-right: 25px;
+    }
+    .SC3-EIGHT-1DIV {
+        height: auto;
+        width: 100%;
+    }
+    .SC3-EIGHT-INPT {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .SC3-EIGHT-INPT:focus {
+        outline: gray 1px solid;
+    }
+    #SC3-EIGHT-INPT2 {
+        height: 120px;
+        padding-top: 20px;
+    }
+    #SC3-EIGHT-INPT5 {
+        width: 40%;
+        height: 75px;
+        font-size: 19px;
+    }
+    #SC4-EIGHT-P {
+        height: 100px;
+        padding-top: 41.5px;
+    }
+    #SC4-EIGHT-SPAN {
+        font-size: 17px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){  
+    footer {
+        height: 650px;
+        margin-top: 150px;
+    }
+    #CONT-EIGHT {
+        height: 550px;
+        padding-top: 25px;
+    }
+    #SC1-EIGHT-H1 {
+        font-size: 25px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    #SC2-EIGHT-DIV {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .SC23-P12 {
+        width: 50%;
+        float: left;
+    }
+    #SC2-EIGHT-P1 {
+        width: 60%;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #SC3-EIGHT-P2 {
+        width: 40%;
+        height: auto;
+        text-align: right;
+    }
+    .SC3-EIGHT-SPAN {
+        padding-left: 25px;
+    }
+    .SC3-EIGHT-IMG {
+        width: auto;
+        height: 36px;
+    }
+    #SC3-EIGHT-DIV {
+        margin-top: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+        height: 250px;
+    }
+    .SC3-EIGHT-1DIV {
+        height: 250px;
+    }    
+    .SC3-EIGHT-INPT {
+        height: 50px;
+        width: 90%;
+        margin-bottom: 40px;
+        margin-right: 2.5%;
+        padding-left: 20px;
+        letter-spacing: 2px;
+        font-size: 13.5px;
+    }
+    #SC3-EIGHT-INPT2 {
+        height: 140px;
+        padding-top: 10px;
+    }
+    #SC3-EIGHT-INPT5 {
+        width: 30%;
+        height: 50px;
+        bottom: 6px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    #SC4-EIGHT-P {
+        height: 100px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 42.5px;
+    }
+    #SC4-EIGHT-SPAN {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px){
+    footer {
+        margin-top: 150px;
+        height: 650px;
+    }
+    #CONT-EIGHT {
+        padding-top: 25px;
+        height: 550px;
+    }
+    #SC1-EIGHT-H1 {
+        font-size: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #SC2-EIGHT-DIV {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .SC23-P12 {
+        width: 50%;
+        float: left;
+    }
+    #SC2-EIGHT-P1 {
+        font-size: 17px;
+        line-height: 30px;
+        width: 60%;
+    }
+    #SC3-EIGHT-P2 {
+        height: auto;
+        width: 40%;
+        text-align: right;
+    }
+    .SC3-EIGHT-SPAN {
+        padding-left: 25px;
+    }
+    .SC3-EIGHT-IMG {
+        width: auto;
+        height: 36px;
+    }
+    #SC3-EIGHT-DIV {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 250px;
+    }
+    .SC3-EIGHT-1DIV {
+        height: 250px;
+    }    
+    .SC3-EIGHT-INPT {
+        height: 50px;
+        width: 90%;
+        margin-bottom: 40px;
+        margin-right: 2.5%;
+        padding-left: 20px;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+    #SC3-EIGHT-INPT2 {
+        height: 140px;
+        padding-top: 10px;
+    }
+    #SC3-EIGHT-INPT5 {
+        width: 30%;
+        height: 50px;
+        bottom: 6px;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    #SC4-EIGHT-P {
+        height: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 42.5px;
+    }
+    #SC4-EIGHT-SPAN {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1999px){
+    footer {
+        height: 850px;
+        margin-top: 150px;
+    }
+    #CONT-EIGHT {
+        height: 750px;
+    }
+    #SC1-EIGHT-H1 {
+        font-size: 30px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .SC23-P12 {
+        width: 50%;
+        float: left;
+    }
+    #SC2-EIGHT-P1 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .SC3-EIGHT-SPAN {
+        padding-left: 25px;
+    }
+    #SC3-EIGHT-P2 {
+        height: auto;
+        text-align: right;
+    }
+    .SC3-EIGHT-IMG {
+        width: auto;
+        height: 48px;
+    }
+    #SC2-EIGHT-DIV {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    #SC3-EIGHT-DIV {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    #SC3-EIGHT-DIV {
+        height: 300px;
+        margin-top: 70px;
+    }
+    .SC3-EIGHT-1DIV {
+        height: 300px;
+    }    
+    .SC3-EIGHT-INPT {
+        height: 60px;
+        width: 90%;
+        margin-bottom: 40px;
+        margin-right: 2.5%;
+        padding-left: 20px;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    #SC3-EIGHT-INPT2 {
+        height: 160px;
+        padding-top: 15px;
+    }
+    #SC3-EIGHT-INPT5 {
+        width: 30%;
+        height: 60px;
+        bottom: 6px;
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    #SC4-EIGHT-P {
+        height: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 42.5px;
+    }
+    #SC4-EIGHT-SPAN {
+        font-size: 15px;
+    }
+}
