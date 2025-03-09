@@ -1,0 +1,349 @@
+/*============================================================*/
+/*===================         FOOTER        ==================*/
+/*============================================================*/
+footer {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+#CONT-EIGHT {
+  width: 100%;
+}
+#SC1-EIGHT-H1 {
+  font-family: Almarai-Regular;
+  color: #008bef;
+}
+#SC2-EIGHT-DIV {
+  height: 150px;
+  width: auto;
+  margin-bottom: 50px;
+}
+#SC2-EIGHT-P1 {
+  color: white;
+  font-family: Roboto-Regular;
+  letter-spacing: 1px;
+}
+.SC23-P12 {
+  width: 100%;
+  margin-top: 25px;
+}
+#SC4-EIGHT-P {
+  width: auto;
+  position: relative;
+  bottom: 0px;
+  color: rgb(206, 206, 206);
+  text-transform: uppercase;
+  font-family: Roboto-Medium;
+  letter-spacing: 1px;
+  text-align: center;
+  z-index: 5;
+}
+
+@media (min-width: 100px) and (max-width: 390px) {
+  #CONT-EIGHT {
+    height: 730px;
+  }
+  #SC1-EIGHT-H1 {
+    font-size: 22px;
+    padding-top: 30px;
+    padding-left: 15px;
+  }
+  #SC2-EIGHT-DIV {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+  }
+  #SC2-EIGHT-P1 {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  #SC3-EIGHT-P2 {
+    margin: 0px;
+  }
+  .SC3-EIGHT-IMG {
+    width: auto;
+    height: 32px;
+  }
+  .SC3-EIGHT-SPAN {
+    padding-right: 25px;
+  }
+  #SC4-EIGHT-P {
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+  }
+  #SC4-EIGHT-SPAN {
+    font-size: 10px;
+  }
+}
+@media (min-width: 391px) and (max-width: 575px) {
+  footer {
+    height: 900px;
+  }
+  #CONT-EIGHT {
+    height: 800px;
+  }
+  #SC1-EIGHT-H1 {
+    font-size: 23px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  #SC2-EIGHT-DIV {
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 75px;
+  }
+  #SC2-EIGHT-P1 {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  #SC3-EIGHT-P2 {
+    margin: 0px;
+  }
+  .SC3-EIGHT-IMG {
+    width: auto;
+    height: 32px;
+  }
+  .SC3-EIGHT-SPAN {
+    padding-right: 25px;
+  }
+  #SC4-EIGHT-P {
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+  #SC4-EIGHT-SPAN {
+    font-size: 12px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  footer {
+    margin-top: 100px;
+    height: 1000px;
+  }
+  #CONT-EIGHT {
+    height: 900px;
+  }
+  #SC1-EIGHT-H1 {
+    font-size: 24px;
+    padding-top: 70px;
+    padding-left: 50px;
+  }
+  #SC2-EIGHT-DIV {
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+  }
+  #SC2-EIGHT-P1 {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  #SC3-EIGHT-P2 {
+    margin: 0px;
+  }
+  .SC3-EIGHT-IMG {
+    width: auto;
+    height: 32px;
+  }
+  .SC3-EIGHT-SPAN {
+    padding-right: 25px;
+  }
+  #SC4-EIGHT-P {
+    height: 100px;
+    padding-top: 43px;
+  }
+  #SC4-EIGHT-SPAN {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  footer {
+    height: 1100px;
+  }
+  #CONT-EIGHT {
+    height: 1000px;
+  }
+  #SC1-EIGHT-H1 {
+    font-size: 27px;
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+  #SC2-EIGHT-DIV {
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+  }
+  #SC2-EIGHT-P1 {
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  #SC3-EIGHT-P2 {
+    margin: 0px;
+  }
+  .SC3-EIGHT-IMG {
+    width: auto;
+    height: 42px;
+  }
+  .SC3-EIGHT-SPAN {
+    padding-right: 25px;
+  }
+  #SC4-EIGHT-P {
+    height: 100px;
+    padding-top: 41.5px;
+  }
+  #SC4-EIGHT-SPAN {
+    font-size: 17px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer {
+    height: 650px;
+    margin-top: 150px;
+  }
+  #CONT-EIGHT {
+    height: 550px;
+    padding-top: 25px;
+  }
+  #SC1-EIGHT-H1 {
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  #SC2-EIGHT-DIV {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .SC23-P12 {
+    width: 50%;
+    float: left;
+  }
+  #SC2-EIGHT-P1 {
+    width: 60%;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  #SC3-EIGHT-P2 {
+    width: 40%;
+    height: auto;
+    text-align: right;
+  }
+  .SC3-EIGHT-SPAN {
+    padding-left: 25px;
+  }
+  .SC3-EIGHT-IMG {
+    width: auto;
+    height: 36px;
+  }
+  #SC4-EIGHT-P {
+    height: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 42.5px;
+  }
+  #SC4-EIGHT-SPAN {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+  footer {
+    margin-top: 150px;
+  }
+  #CONT-EIGHT {
+    padding-top: 25px;
+  }
+  #SC1-EIGHT-H1 {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #SC2-EIGHT-DIV {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .SC23-P12 {
+    width: 50%;
+    float: left;
+  }
+  #SC2-EIGHT-P1 {
+    font-size: 17px;
+    line-height: 30px;
+    width: 60%;
+  }
+  #SC3-EIGHT-P2 {
+    height: auto;
+    width: 40%;
+    text-align: right;
+  }
+  .SC3-EIGHT-SPAN {
+    padding-left: 25px;
+  }
+  .SC3-EIGHT-IMG {
+    width: auto;
+    height: 36px;
+  }
+  #SC4-EIGHT-P {
+    height: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 42.5px;
+  }
+  #SC4-EIGHT-SPAN {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1999px) {
+  footer {
+    height: 850px;
+    margin-top: 150px;
+  }
+  #CONT-EIGHT {
+    height: 750px;
+  }
+  #SC1-EIGHT-H1 {
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .SC23-P12 {
+    width: 50%;
+    float: left;
+  }
+  #SC2-EIGHT-P1 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .SC3-EIGHT-SPAN {
+    padding-left: 25px;
+  }
+  #SC3-EIGHT-P2 {
+    height: auto;
+    text-align: right;
+  }
+  .SC3-EIGHT-IMG {
+    width: auto;
+    height: 48px;
+  }
+  #SC2-EIGHT-DIV {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  #SC4-EIGHT-P {
+    height: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 42.5px;
+  }
+  #SC4-EIGHT-SPAN {
+    font-size: 15px;
+  }
+}

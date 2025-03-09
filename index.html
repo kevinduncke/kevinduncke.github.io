@@ -1,204 +1,381 @@
 ﻿<!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kevin Duncke</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="./Content/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <!--======= FAVICON ICON =======-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./res/FAVICON-ICON/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./res/FAVICON-ICON/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./res/FAVICON-ICON/android-chrome-512x512.png">
-    <link rel="manifest" href="./res/FAVICON-ICON/site.webmanifest">
-</head>
-<body>
-    <!--===================== FRAME DESIGN ===========================-->
-    <div id="FRAME-ONE">
-        <img id="IMG-F1" src="./res/FRAME-1.png" alt="FRAME-ONE">
-        <img id="IMG-F1-MOBILE" src="./res/FRAME-1-Mobile.png" alt="FRAME-ONE-MOBILE">        
-    </div>
-    <!--==============================================================-->
-    <!--======================= HEADER ===============================-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./res/FAVICON-ICON/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./res/FAVICON-ICON/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./res/FAVICON-ICON/android-chrome-512x512.png"
+    />
+    <link rel="manifest" href="./res/FAVICON-ICON/site.webmanifest" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div id="box-brand">
-                <p class="navbar-brand" href="./index.html">
-                   KEVIN DUNCKE
-                </p>
-            </div>
+      <nav id="kd-nvbar" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="nav-link" href="">Kevin Duncke</a>
 
-            <button id="btntoggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#kd-navbar-cllps"
+            aria-controls="kd-navbar-cllps"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="32"
+                width="28"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+                />
+              </svg>
+            </span>
+          </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#SERVICES">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#WORKS">WORKS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#CONTACT">CONTACT ME</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+          <div class="collapse navbar-collapse" id="kd-navbar-cllps">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"> About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work"> Work </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <!--==============================================================-->
-    <!--======================= MAIN =================================-->
     <main>
-        <!--===== CONT-ONE =====-->
-        <div id="CONT-ONE">
-            <div class="SCL-1568">
-                <h1 class="T-DL1568">ABOUT ME</h1>
-            </div>
+      <!-- HERO SECTION -->
+      <section class="nv-sect nv-hero">
+        <div>
+          <h1>Kevin Duncke</h1>
+          <h2>Front-end Developer &amp; Web Designer</h2>
+          <p>
+            I'm passionate about creating intuitive and engaging web
+            experiences. Here, you'll find a showcase of my latest projects,
+            where I blend aesthetic design with flawless functionality. My goal
+            is to transform ideas into digital realities that are not only
+            visually stunning but also highly user-friendly.
+          </p>
         </div>
-        <!--===== CONT-TWO =====-->
-        <div id="CONT-TWO">
-            <div id="SC1-TWO" class="float SC-TWO">
-                <p id="SC1-TWO-P1" class="SC1-TWO-P">
-                    Hi! I'm Kevin Duncke a web designer and developer, placed in argentina.
-                </p>
-                <p id="SC1-TWO-P2" class="SC1-TWO-P">
-                    I have over two years of experience designing and development websites. I continually
-                    working in new designs for new clients to make a better connection with their customers.
-                </p>
-            </div>
-            <div id="SC2-TWO" class="float SC-TWO">
-                <img id="SC2-TWO-IMG" src="./res/IMG-LIGHT.png" alt="Kevin Duncke">
-            </div>
+        <div>
+          <div id="nv-bprofile"></div>
         </div>
-        <!--===== CONT-THREE =====-->
-        <div id="CONT-THREE">
-            <p id="SC-THREE-P">
-                <span class="SC-SPANs">“</span>I'm also work in branding design and package design.<span class="SC-SPANs">”</span>
-            </p>
-        </div>
-        <!--===== CONT-FOUR =====-->
-        <div id="CONT-FOUR">
-            <img id="SC-FOUR-IMG" src="./res/web-desing-computer.jpg" alt="Web Desing in a apple macbook">
-        </div>
-        <!--===== SERVICES =====-->
-        <div id="SERVICES">
-            <div class="SCL-1568">
-                <h1 class="T-DL1568">SERVICES</h1>
-            </div>
-            <p id="SC1-FIVE" class="SC-FIVE">
-                    WHAT I CAN DO FOR <span class="SC-SPANs">YOU</span> 
-                    OR <span class="SC-SPANs">YOUR COMPANY</span>
-            </p>
-            <div id="SC2-FIVE" class="SC-FIVE">
-                <ul class="SC2-FIVE-ULs">
-                    <li class="SC2-FIVE-LI">
-                        <div class="SC2-FIVE-DIV-IMG">
-                            <img class="SC2-FIVE-IMG" src="./res/html-coding.png" alt="Web Development">
-                            <h3 class="SC2-FIVE-T">Web Development</h3>
-                        </div>
-                    </li>
-                    <li class="SC2-FIVE-LI">
-                        <div class="SC2-FIVE-DIV-IMG">
-                            <img class="SC2-FIVE-IMG" src="./res/web-desing.png" alt="Web Desing">
-                            <h3 class="SC2-FIVE-T">Web Desing</h3>
-                        </div>
-                    </li>
-                    <li class="SC2-FIVE-LI" id="SC2-FIVE-LI3">
-                        <div class="SC2-FIVE-DIV-IMG">
-                            <img class="SC2-FIVE-IMG" src="./res/mobile-desing.png" alt="Mobile Desing">
-                            <h3 class="SC2-FIVE-T">Mobile Desing</h3>
-                        </div>
-                    </li>
-                </ul>
-
-                <ul class="SC2-FIVE-ULs" id="SC2-FIVE-UL2">
-                    <li class="SC2-FIVE-LI">
-                        <div class="SC2-FIVE-DIV-IMG">
-                            <img class="SC2-FIVE-IMG" src="./res/branding-desing.png" alt="Branding Desing">
-                            <h3 class="SC2-FIVE-T">Branding Desing</h3>
-                        </div>
-                    </li>
-                    <li class="SC2-FIVE-LI">
-                        <div class="SC2-FIVE-DIV-IMG">
-                            <img class="SC2-FIVE-IMG" src="./res/packaging-desing.png" alt="Packaging Desing">
-                            <h3 class="SC2-FIVE-T">Package Desing</h3>                
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--===== WORKS =====-->
-        <div id="WORKS">
-            <div class="SCL-1568">
-                <h1 class="T-DL1568">WORKS</h1>
-            </div>
-            <p id="SC1-SIX-P">
-                Here are a few design work and projects that I made. I share more on mi <a id="a-dbbb-account" href="https://dribbble.com/KevinDuncke">Dribbble</a> account, click and see more of a 
-                variety of design works like web, mobile, and branding.
-            </p>
-            <div id="SC2-SIX-DIV">
-                <div class="SC2-SIX-SD">
-                    <img class="SC2-SIX-IMG" src="./res/Work-1.png" alt="Work 1">
-                    <h1 class="SC2-SIX-H1 SC2-SIX-H1P">Misiones Sabor Website</h1>
-                    <p class="SC2-SIX-P SC2-SIX-H1P">Shop, Products, Herbals & Spices</p>
-                </div>
-                <div class="SC2-SIX-SD">
-                    <img class="SC2-SIX-IMG" src="./res/Work-2.png" alt="Work 2">
-                    <h1 class="SC2-SIX-H1 SC2-SIX-H1P">Personal Portfolio Website</h1>
-                    <p class="SC2-SIX-P SC2-SIX-H1P">About, Services, Design works</p>
-                </div>
-            </div>
-            
-        </div>
-        <!--===== CONT-SEVEN =====-->
-        <div id="CONT-SEVEN">
-            <p class="SC-SEVEN-P">I'm currently avalible for work on new projects</p>
-        </div>
-    </main>
-    <!--==============================================================-->
-    <!--====================== FOOTER ================================-->
-    <footer id="CONTACT">
-        <div id="CONT-EIGHT">
-            <h1 id="SC1-EIGHT-H1">CONTACT ME</h1>
-            <div id="SC2-EIGHT-DIV">
-                <p id="SC2-EIGHT-P1" class="SC23-P12">
-                    Write me an email or message me on WhatsApp or Dribbble. <br>
-                    If all else fails, you can call me: <br>
-                    +54 9 3764-339706
-                </p>
-                <p id="SC3-EIGHT-P2" class="SC23-P12">
-                    <span class="SC3-EIGHT-SPAN"><a href="https://www.linkedin.com/in/kevin-duncke"><img class="SC3-EIGHT-IMG" src="./res/linkedin.png" alt="Linkedin"></a></span>
-                    <span class="SC3-EIGHT-SPAN"><a href="https://www.dribbble.com/KevinDuncke"><img class="SC3-EIGHT-IMG" src="./res/dribbble.png" alt="Dribbble"></a></span> 
-                </p>
-            </div>
-            <div id="SC3-EIGHT-DIV">
-                <div class="SC3-EIGHT-1DIV">
-                    <input type="text" disabled name="Name & Surname" placeholder="Name & Surname" id="SC3-EIGHT-INPT1" class="SC3-EIGHT-INPT">
-                    <input type="email" disabled name="Email" placeholder="Email" id="SC3-EIGHT-INPT3" class="SC3-EIGHT-INPT">
-                    <input type="text" disabled name="Subject" placeholder="Subject" id="SC3-EIGHT-INPT4" class="SC3-EIGHT-INPT">
-                </div>
-                <div class="SC3-EIGHT-1DIV">
-                    <textarea name="Message" disabled placeholder="Message" id="SC3-EIGHT-INPT2" class="SC3-EIGHT-INPT" ></textarea>
-                    <form action="" method="post">
-                        <input disabled type="submit" id="SC3-EIGHT-INPT5" value="submit">
-                    </form>
-                </div>
-            </div>
-        </div>
-        <p id="SC4-EIGHT-P">
-            <span id="SC4-EIGHT-SPAN">Copyright © 2021 Kevin Duncke. All Rights Reserved</span>
+      </section>
+      <!-- ABOUT ME SECTION -->
+      <section id="about" class="nv-sect nv-bio">
+        <h1>About Me</h1>
+        <p>
+          Since the age of 18, my passion for computing led me to explore
+          software development. Through resources like YouTube and Pluralsight,
+          I acquired a solid foundation in HTML5, CSS, and JavaScript, expanding
+          my skills with technologies such as React, TypeScript, Angular, and
+          Vue.js.
         </p>
-        <!--===================== FRAME DESIGN ===========================-->
-        <div id="FRAME-TWO">
-            <img id="IMG-F2" src="./res/FRAME-2.png" alt="FRAME-TWO">
-            <img id="IMG-F2-MOBILE" src="./res/FRAME-2-Mobile.png" alt="FRAME-TWO-MOBILE">
+        <br />
+        <p>
+          I continuously seek to improve my technical competencies to face the
+          challenges of the dynamic world of information technology.
+        </p>
+      </section>
+      <!-- PROJECTS/PORTAFOLIO SECTION -->
+      <section id="work" class="nv-sect nv-work">
+        <h1>Work / Projects</h1>
+        <div class="nv-wk-boxs">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/kevinduncke/MoneyWin"
+          >
+            <div class="nv-wk-bxs">
+              <div class="nv-wk-bxs-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="Capa_1"
+                  viewBox="0 0 416 52.75"
+                  height="auto"
+                  width="150px"
+                >
+                  <path
+                    d="m.22,52.62V.13h.07l27.29,38.63-3.48-.77L51.24.13h.14v52.49h-8.07V18.44l.56,4.11-18.38,25.96h-.14L6.69,22.55l1.39-3.76v33.83H.22Z"
+                    style="fill: #f7931e; stroke-width: 0px"
+                  />
+                  <path
+                    d="m62.17,26.44c0-3.53.67-6.84,2.02-9.95,1.35-3.11,3.2-5.87,5.57-8.28,2.37-2.41,5.12-4.3,8.25-5.67s6.48-2.05,10.06-2.05,6.86.69,9.99,2.05,5.89,3.26,8.28,5.67c2.39,2.41,4.27,5.17,5.64,8.28,1.37,3.11,2.05,6.43,2.05,9.95s-.69,6.93-2.05,10.06c-1.37,3.13-3.25,5.88-5.64,8.25-2.39,2.37-5.15,4.21-8.28,5.53-3.13,1.32-6.46,1.98-9.99,1.98s-6.98-.66-10.09-1.98c-3.11-1.32-5.85-3.16-8.21-5.5-2.37-2.34-4.22-5.08-5.57-8.21-1.35-3.13-2.02-6.51-2.02-10.13Zm8.35,0c0,2.51.45,4.85,1.36,7.03.91,2.18,2.17,4.1,3.79,5.74,1.62,1.65,3.5,2.94,5.64,3.86,2.13.93,4.45,1.39,6.96,1.39s4.67-.46,6.79-1.39c2.11-.93,3.96-2.22,5.53-3.86,1.58-1.65,2.82-3.56,3.72-5.74.91-2.18,1.36-4.52,1.36-7.03s-.46-4.92-1.39-7.1c-.93-2.18-2.18-4.11-3.76-5.78-1.58-1.67-3.44-2.97-5.57-3.9-2.14-.93-4.43-1.39-6.89-1.39s-4.76.46-6.89,1.39-4,2.23-5.6,3.9c-1.6,1.67-2.84,3.61-3.72,5.81-.88,2.21-1.32,4.56-1.32,7.07Z"
+                    style="fill: #f7931e; stroke-width: 0px"
+                  />
+                  <path
+                    d="m169.37,53.49l-38.91-37.73,2.37.97.21,34.94h-8.21V-.74h.42l38.29,37.73-1.88-.56-.14-35.43h8.07v52.49h-.21Z"
+                    style="fill: #f7931e; stroke-width: 0px"
+                  />
+                  <path
+                    d="m183.57,1.04h33.62v7.8h-25.48v13.5h22.69v7.8h-22.69v13.78h26.45v7.8h-34.6V1.04Z"
+                    style="fill: #f7931e; stroke-width: 0px"
+                  />
+                  <path
+                    d="m242.74,35.29L224.01,1.04h9.95l14.27,27.29-2.44.14,14.06-27.43h9.95l-19,34.25v16.43h-8.07v-16.43Z"
+                    style="fill: #f7931e; stroke-width: 0px"
+                  />
+                  <path
+                    d="m273.99,0h9.47l12.53,35.92-1.32-.56,9.75-24.99,3.76,11.07-13.92,31.32L273.99,0ZM298.77,0h8.07l13.92,35.15-1.6-.28L330.72,0h8.7l-19.77,52.62L298.77,0Z"
+                    style="fill: #22b573; stroke-width: 0px"
+                  />
+                  <path
+                    d="m348.96,1.04h8.14v50.68h-8.14V1.04Z"
+                    style="fill: #22b573; stroke-width: 0px"
+                  />
+                  <path
+                    d="m415.57,53.49l-38.91-37.73,2.37.97.21,34.94h-8.21V-.74h.42l38.29,37.73-1.88-.56-.14-35.43h8.07v52.49h-.21Z"
+                    style="fill: #22b573; stroke-width: 0px"
+                  />
+                </svg>
+              </div>
+              <p>
+                MoneyWin is a simple, lightweight Android application designed
+                to help users manage their finances by tracking income and
+                expenses.
+              </p>
+            </div>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/kevinduncke/xerox"
+          >
+            <div class="nv-wk-bxs">
+              <div class="nv-wk-bxs-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="30"
+                  viewBox="0 0 603 191"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_2162_2)">
+                    <path
+                      d="M72.385 89.355L118.575 145H92.225L59.21 105.32L26.35 145H0L46.035 89.355L2.325 36.5H28.675L59.21 73.545L89.9 36.5H116.25L72.385 89.355ZM151.846 48.125V83.775H208.421V95.4H151.846V133.375H223.921V145H129.371V36.5H223.921V48.125H151.846ZM295.214 36.5C302.964 36.5 309.888 37.3783 315.984 39.135C322.184 40.7883 327.403 43.2683 331.639 46.575C335.876 49.7783 339.131 53.7567 341.404 58.51C343.678 63.16 344.814 68.4817 344.814 74.475C344.814 82.7417 342.748 89.7167 338.614 95.4C334.481 101.083 328.539 105.423 320.789 108.42L346.364 145H320.789L298.004 112.45H295.214H261.889V145H239.414V36.5H295.214ZM261.889 48.125V100.825H295.214C303.378 100.825 309.681 98.7067 314.124 94.47C318.568 90.13 320.789 83.465 320.789 74.475C320.789 65.485 318.568 58.8717 314.124 54.635C309.681 50.295 303.378 48.125 295.214 48.125H261.889ZM422.284 44.25C417.014 44.25 412.054 45.18 407.404 47.04C402.858 48.9 398.879 51.7417 395.469 55.565C392.059 59.3883 389.321 64.245 387.254 70.135C385.291 75.9217 384.309 82.7933 384.309 90.75C384.309 98.7067 385.291 105.63 387.254 111.52C389.321 117.307 392.059 122.112 395.469 125.935C398.879 129.758 402.858 132.6 407.404 134.46C412.054 136.32 417.014 137.25 422.284 137.25C427.554 137.25 432.463 136.32 437.009 134.46C441.659 132.6 445.689 129.758 449.099 125.935C452.509 122.112 455.196 117.307 457.159 111.52C459.226 105.63 460.259 98.7067 460.259 90.75C460.259 82.7933 459.226 75.9217 457.159 70.135C455.196 64.245 452.509 59.3883 449.099 55.565C445.689 51.7417 441.659 48.9 437.009 47.04C432.463 45.18 427.554 44.25 422.284 44.25ZM422.284 33.4C431.584 33.4 440.006 34.64 447.549 37.12C455.196 39.6 461.706 43.2683 467.079 48.125C472.556 52.9817 476.793 58.975 479.789 66.105C482.786 73.235 484.284 81.45 484.284 90.75C484.284 100.05 482.786 108.265 479.789 115.395C476.793 122.525 472.556 128.518 467.079 133.375C461.706 138.232 455.196 141.9 447.549 144.38C440.006 146.86 431.584 148.1 422.284 148.1C412.984 148.1 404.511 146.86 396.864 144.38C389.218 141.9 382.656 138.232 377.179 133.375C371.806 128.518 367.621 122.525 364.624 115.395C361.731 108.265 360.284 100.05 360.284 90.75C360.284 81.45 361.731 73.235 364.624 66.105C367.621 58.975 371.806 52.9817 377.179 48.125C382.656 43.2683 389.218 39.6 396.864 37.12C404.511 34.64 412.984 33.4 422.284 33.4ZM556.76 89.355L602.95 145H576.6L543.585 105.32L510.725 145H484.375L530.41 89.355L486.7 36.5H513.05L543.585 73.545L574.275 36.5H600.625L556.76 89.355Z"
+                      fill="#060606"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2162_2">
+                      <rect width="603" height="191" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p>
+                Xerox is a powerful and discreet Android application designed
+                for cybersecurity operations, providing advanced capabilities to
+                collect and manage detailed information about targets.
+              </p>
+            </div>
+          </a>
         </div>
-        <!--==============================================================-->
+      </section>
+      <!-- TECH SECTION -->
+      <section class="nv-sect nv-tech">
+        <h1>Technologies</h1>
+        <div class="nv-tech-icons">
+          <div class="nv-skll">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="64"
+              width="48"
+              viewBox="0 0 384 512"
+              class="nv-skll-svg-hc"
+            >
+              <path
+                fill="#ec6231"
+                d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"
+              />
+            </svg>
+          </div>
+          <div class="nv-skll">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="64"
+              width="48"
+              viewBox="0 0 384 512"
+              class="nv-skll-svg-hc"
+            >
+              <path
+                fill="#0277bd"
+                d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"
+              />
+            </svg>
+          </div>
+          <div class="nv-skll">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="64"
+              width="56"
+              viewBox="0 0 448 512"
+              class="nv-skll-svg-jtarv"
+            >
+              <path
+                fill="#f0db4f"
+                d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
+              />
+            </svg>
+          </div>
+          <div class="nv-skll">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              height="64"
+              width="56"
+              viewBox="0 0 128 128"
+              class="nv-skll-svg-jtarv"
+            >
+              <rect fill="#3178c6" height="128" rx="6" width="128" />
+              <path
+                clip-rule="evenodd"
+                d="m74.2622 99.468v14.026c2.2724 1.168 4.9598 2.045 8.0625 2.629 3.1027.585 6.3728.877 9.8105.877 3.3503 0 6.533-.321 9.5478-.964 3.016-.643 5.659-1.702 7.932-3.178 2.272-1.476 4.071-3.404 5.397-5.786 1.325-2.381 1.988-5.325 1.988-8.8313 0-2.5421-.379-4.7701-1.136-6.6841-.758-1.9139-1.85-3.6159-3.278-5.1062-1.427-1.4902-3.139-2.827-5.134-4.0104-1.996-1.1834-4.246-2.3011-6.752-3.353-1.8352-.7597-3.4812-1.4975-4.9378-2.2134-1.4567-.7159-2.6948-1.4464-3.7144-2.1915-1.0197-.7452-1.8063-1.5341-2.3598-2.3669-.5535-.8327-.8303-1.7751-.8303-2.827 0-.9643.2476-1.8336.7429-2.6079s1.1945-1.4391 2.0976-1.9943c.9031-.5551 2.0101-.9861 3.3211-1.2929 1.311-.3069 2.7676-.4603 4.3699-.4603 1.1658 0 2.3958.0877 3.6928.263 1.296.1753 2.6.4456 3.911.8109 1.311.3652 2.585.8254 3.824 1.3806 1.238.5552 2.381 1.198 3.43 1.9285v-13.1051c-2.127-.8182-4.45-1.4245-6.97-1.819s-5.411-.5917-8.6744-.5917c-3.3211 0-6.4674.3579-9.439 1.0738-2.9715.7159-5.5862 1.8336-7.844 3.353-2.2578 1.5195-4.0422 3.4553-5.3531 5.8075-1.311 2.3522-1.9665 5.1646-1.9665 8.4373 0 4.1785 1.2017 7.7433 3.6052 10.6945 2.4035 2.9513 6.0523 5.4496 10.9466 7.495 1.9228.7889 3.7145 1.5633 5.375 2.323 1.6606.7597 3.0954 1.5486 4.3044 2.3668s2.1628 1.7094 2.8618 2.6736c.7.9643 1.049 2.06 1.049 3.2873 0 .9062-.218 1.7462-.655 2.5202s-1.1 1.446-1.9885 2.016c-.8886.57-1.9956 1.016-3.3212 1.337-1.3255.321-2.8768.482-4.6539.482-3.0299 0-6.0305-.533-9.0021-1.6-2.9715-1.066-5.7245-2.666-8.2591-4.799zm-23.5596-34.9136h18.2974v-11.5544h-51v11.5544h18.2079v51.4456h14.4947z"
+                fill="#fff"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="nv-skll">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="64"
+              width="56"
+              viewBox="0 0 448 512"
+              class="nv-skll-svg-jtarv"
+            >
+              <path
+                fill="#dd1b16"
+                d="M185.7 268.1h76.2l-38.1-91.6-38.1 91.6zM223.8 32L16 106.4l31.8 275.7 176 97.9 176-97.9 31.8-275.7zM354 373.8h-48.6l-26.2-65.4H168.6l-26.2 65.4H93.7L223.8 81.5z"
+              />
+            </svg>
+          </div>
+          <div class="nv-skll">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="64"
+              width="56"
+              viewBox="0 0 512 512"
+              class="nv-skll-svg-jtarv"
+            >
+              <path
+                fill="#61dbfb"
+                d="M418.2 177.2c-5.4-1.8-10.8-3.5-16.2-5.1 .9-3.7 1.7-7.4 2.5-11.1 12.3-59.6 4.2-107.5-23.1-123.3-26.3-15.1-69.2 .6-112.6 38.4-4.3 3.7-8.5 7.6-12.5 11.5-2.7-2.6-5.5-5.2-8.3-7.7-45.5-40.4-91.1-57.4-118.4-41.5-26.2 15.2-34 60.3-23 116.7 1.1 5.6 2.3 11.1 3.7 16.7-6.4 1.8-12.7 3.8-18.6 5.9C38.3 196.2 0 225.4 0 255.6c0 31.2 40.8 62.5 96.3 81.5 4.5 1.5 9 3 13.6 4.3-1.5 6-2.8 11.9-4 18-10.5 55.5-2.3 99.5 23.9 114.6 27 15.6 72.4-.4 116.6-39.1 3.5-3.1 7-6.3 10.5-9.7 4.4 4.3 9 8.4 13.6 12.4 42.8 36.8 85.1 51.7 111.2 36.6 27-15.6 35.8-62.9 24.4-120.5-.9-4.4-1.9-8.9-3-13.5 3.2-.9 6.3-1.9 9.4-2.9 57.7-19.1 99.5-50 99.5-81.7 0-30.3-39.4-59.7-93.8-78.4zM282.9 92.3c37.2-32.4 71.9-45.1 87.7-36 16.9 9.7 23.4 48.9 12.8 100.4-.7 3.4-1.4 6.7-2.3 10-22.2-5-44.7-8.6-67.3-10.6-13-18.6-27.2-36.4-42.6-53.1 3.9-3.7 7.7-7.2 11.7-10.7zM167.2 307.5c5.1 8.7 10.3 17.4 15.8 25.9-15.6-1.7-31.1-4.2-46.4-7.5 4.4-14.4 9.9-29.3 16.3-44.5 4.6 8.8 9.3 17.5 14.3 26.1zm-30.3-120.3c14.4-3.2 29.7-5.8 45.6-7.8-5.3 8.3-10.5 16.8-15.4 25.4-4.9 8.5-9.7 17.2-14.2 26-6.3-14.9-11.6-29.5-16-43.6zm27.4 68.9c6.6-13.8 13.8-27.3 21.4-40.6s15.8-26.2 24.4-38.9c15-1.1 30.3-1.7 45.9-1.7s31 .6 45.9 1.7c8.5 12.6 16.6 25.5 24.3 38.7s14.9 26.7 21.7 40.4c-6.7 13.8-13.9 27.4-21.6 40.8-7.6 13.3-15.7 26.2-24.2 39-14.9 1.1-30.4 1.6-46.1 1.6s-30.9-.5-45.6-1.4c-8.7-12.7-16.9-25.7-24.6-39s-14.8-26.8-21.5-40.6zm180.6 51.2c5.1-8.8 9.9-17.7 14.6-26.7 6.4 14.5 12 29.2 16.9 44.3-15.5 3.5-31.2 6.2-47 8 5.4-8.4 10.5-17 15.5-25.6zm14.4-76.5c-4.7-8.8-9.5-17.6-14.5-26.2-4.9-8.5-10-16.9-15.3-25.2 16.1 2 31.5 4.7 45.9 8-4.6 14.8-10 29.2-16.1 43.4zM256.2 118.3c10.5 11.4 20.4 23.4 29.6 35.8-19.8-.9-39.7-.9-59.5 0 9.8-12.9 19.9-24.9 29.9-35.8zM140.2 57c16.8-9.8 54.1 4.2 93.4 39 2.5 2.2 5 4.6 7.6 7-15.5 16.7-29.8 34.5-42.9 53.1-22.6 2-45 5.5-67.2 10.4-1.3-5.1-2.4-10.3-3.5-15.5-9.4-48.4-3.2-84.9 12.6-94zm-24.5 263.6c-4.2-1.2-8.3-2.5-12.4-3.9-21.3-6.7-45.5-17.3-63-31.2-10.1-7-16.9-17.8-18.8-29.9 0-18.3 31.6-41.7 77.2-57.6 5.7-2 11.5-3.8 17.3-5.5 6.8 21.7 15 43 24.5 63.6-9.6 20.9-17.9 42.5-24.8 64.5zm116.6 98c-16.5 15.1-35.6 27.1-56.4 35.3-11.1 5.3-23.9 5.8-35.3 1.3-15.9-9.2-22.5-44.5-13.5-92 1.1-5.6 2.3-11.2 3.7-16.7 22.4 4.8 45 8.1 67.9 9.8 13.2 18.7 27.7 36.6 43.2 53.4-3.2 3.1-6.4 6.1-9.6 8.9zm24.5-24.3c-10.2-11-20.4-23.2-30.3-36.3 9.6 .4 19.5 .6 29.5 .6 10.3 0 20.4-.2 30.4-.7-9.2 12.7-19.1 24.8-29.6 36.4zm130.7 30c-.9 12.2-6.9 23.6-16.5 31.3-15.9 9.2-49.8-2.8-86.4-34.2-4.2-3.6-8.4-7.5-12.7-11.5 15.3-16.9 29.4-34.8 42.2-53.6 22.9-1.9 45.7-5.4 68.2-10.5 1 4.1 1.9 8.2 2.7 12.2 4.9 21.6 5.7 44.1 2.5 66.3zm18.2-107.5c-2.8 .9-5.6 1.8-8.5 2.6-7-21.8-15.6-43.1-25.5-63.8 9.6-20.4 17.7-41.4 24.5-62.9 5.2 1.5 10.2 3.1 15 4.7 46.6 16 79.3 39.8 79.3 58 0 19.6-34.9 44.9-84.8 61.4zm-149.7-15c25.3 0 45.8-20.5 45.8-45.8s-20.5-45.8-45.8-45.8c-25.3 0-45.8 20.5-45.8 45.8s20.5 45.8 45.8 45.8z"
+              />
+            </svg>
+          </div>
+          <div class="nv-skll">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="64"
+              width="56"
+              viewBox="0 0 448 512"
+              class="nv-skll-svg-jtarv"
+            >
+              <path
+                fill="#42b883"
+                d="M356.9 64.3H280l-56 88.6-48-88.6H0L224 448 448 64.3h-91.1zm-301.2 32h53.8L224 294.5 338.4 96.3h53.8L224 384.5 55.7 96.3z"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="nv-sect nv-contact">
+        <div class="nv-ctc-info">
+          <h1>Contact Me</h1>
+          <p>
+            Write me an email:
+            <a href="mailto:kevinduncke@gmail.com">kevinduncke@gmail.com</a>
+          </p>
+          <p>
+            If all else fails, you can call me:
+            <a href="tel:+543764727920">+54 376-4727920</a>
+          </p>
+        </div>
+        <div class="nv-ctc-info nv-ctc-icons">
+          <a href="https://www.linkedin.com/in/kevin-duncke/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32"
+              width="28"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="#ffffff"
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              />
+            </svg>
+          </a>
+          <a href="https://github.com/kevinduncke">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32"
+              width="31"
+              viewBox="0 0 496 512"
+            >
+              <path
+                fill="#ffffff"
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+              />
+            </svg>
+          </a>
+          <!-- <a href="https://dribbble.com/KevinDuncke">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="32"
+              width="32"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#ea4c89"
+                d="M256 8C119.3 8 8 119.3 8 256s111.3 248 248 248 248-111.3 248-248S392.7 8 256 8zm164 114.4c29.5 36 47.4 82 47.8 132-7-1.5-77-15.7-147.5-6.8-5.8-14-11.2-26.4-18.6-41.6 78.3-32 113.8-77.5 118.3-83.5zM396.4 97.9c-3.8 5.4-35.7 48.3-111 76.5-34.7-63.8-73.2-116.2-79-124 67.2-16.2 138 1.3 190.1 47.5zm-230.5-33.3c5.6 7.7 43.4 60.1 78.5 122.5-99.1 26.3-186.4 25.9-195.8 25.8C62.4 147.2 106.7 92.6 165.9 64.6zM44.2 256.3c0-2.2 0-4.3 .1-6.5 9.3 .2 111.9 1.5 217.7-30.1 6.1 11.9 11.9 23.9 17.2 35.9-76.6 21.6-146.2 83.5-180.5 142.3C64.8 360.4 44.2 310.7 44.2 256.3zm81.8 167.1c22.1-45.2 82.2-103.6 167.6-132.8 29.7 77.3 42 142.1 45.2 160.6-68.1 29-150 21.1-212.8-27.9zm248.4 8.5c-2.2-12.9-13.4-74.9-41.2-151 66.4-10.6 124.7 6.8 131.9 9.1-9.4 58.9-43.3 109.8-90.8 142z"
+              />
+            </svg>
+          </a> -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2025 Kevin Duncke. All Rights Reserved</p>
     </footer>
-    <!--==============================================================-->
-    <script src="./Scripts/jquery-3.5.1.min.js"></script>
-    <script src="./Scripts/bootstrap.min.js"></script>
-    <script src="./Scripts/popper.min.js"></script>
-</body>
+  </body>
+  <script src="./scripts/bootstrap.min.js"></script>
 </html>
