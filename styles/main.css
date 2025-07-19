@@ -226,24 +226,45 @@
     font-size: 18px;
   }
 
-  /* TECH */
-  .nv-tech {
+  /* CERTF */
+  .nv-certf {
     margin: 5% 10%;
   }
-  .nv-tech h1 {
+  .nv-certf h1 {
     font-size: 25px;
     color: #000000;
     margin-bottom: 25px;
   }
-  .nv-tech-icons {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  .navl-clor {
+    color: #000000;
+  }
+  .nav-pills {
+    column-gap: 25px !important;
+  }
+  .nav-pills .nav-link.active {
+    background-color: #f3f3f3;
   }
   .nv-skll {
-    padding: 25px 0;
+    padding: 0;
+  }
+  .card-link {
+    text-decoration: none;
+    color: #000000;
+  }
+  .img-ps-banner {
+    height: 18px;
+    width: auto;
+  }
+  .card-title {
+    margin-top: 15px;
+  }
+  .card:hover {
+    border: 0.5px solid #ffa500 !important;
+    border-radius: 0.375rem;
+  }
+  .card-css:hover {
+    border: 0.5px solid #68bad6 !important;
+    border-radius: 0.375rem;
   }
 
   /* WORK */
