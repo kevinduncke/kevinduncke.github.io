@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Styling Websites with CSS",
+    "date": "17 October, 2020",
+    "time": "1.5 hrs",
+    "link": "./res/Certificates/CSS/Styling Websites/certificate.pdf"
+  },
+  {
+    "title": "Working with Colors and Images",
+    "date": "18 October, 2020",
+    "time": "1.6 hrs",
+    "link": "./res/Certificates/CSS/Working with Colors and Images/certificate.pdf"
+  },
+  {
+    "title": "Creating Page Layouts",
+    "date": "18 October, 2020",
+    "time": "2.3 hrs",
+    "link": "./res/Certificates/CSS/Creating Page Layouts/certificate.pdf"
+  },
+  {
+    "title": "Introduction to CSS",
+    "date": "2 September, 2022",
+    "time": "2.2 hrs",
+    "link": "./res/Certificates/CSS/Introduction to CSS/certificate.pdf"
+  },
+  {
+    "title": "CSS Positioning",
+    "date": "5 September, 2022",
+    "time": "0.8 hrs",
+    "link": "./res/Certificates/CSS/CSS Positioning/certificate.pdf"
+  },
+  {
+    "title": "Creating Layouts with CSS Grid",
+    "date": "21 September, 2023",
+    "time": "1.7 hrs",
+    "link": "./res/Certificates/CSS/Creating Layouts with CSS Grid/certificate.pdf"
+  },
+  {
+    "title": "Creating Responsive Pages with CSS FlexBox",
+    "date": "15 January, 2024",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/CSS/Creating Responsive Pages with CSS FlexBox/certificate.pdf"
+  },
+  {
+    "title": "Applying Special Effects to a Site Using CSS",
+    "date": "8 February, 2024",
+    "time": "1.9 hrs",
+    "link": "./res/Certificates/CSS/Applying Special Effects to a Site Using CSS/certificate.pdf"
+  }
+]
