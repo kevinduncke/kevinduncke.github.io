@@ -239,7 +239,7 @@
     color: #000000;
   }
   .nav-pills {
-    column-gap: 25px !important;
+    column-gap: 20px !important;
   }
   .nav-pills .nav-link.active {
     background-color: #f3f3f3;
