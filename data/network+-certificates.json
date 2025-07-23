@@ -1,0 +1,20 @@
+[
+  {
+    "title": "CompTIA Network+: Network Concepts and Protocols",
+    "date": "6 February, 2022",
+    "time": "5.1 hrs",
+    "link": "./res/Certificates/CompTIA Network+/N10-008/Network Concepts and Protocols/certificate.pdf"
+  },
+  {
+    "title": "CompTIA Network+: Introduction to Enterprise Network Infrastructure",
+    "date": "9 February, 2022",
+    "time": "3.6 hrs",
+    "link": "./res/Certificates/CompTIA Network+/N10-008/Introduction to Enterprise Network Infrastructure/certificate.pdf"
+  },
+  {
+    "title": "CompTIA Network+: Network Management and Operations",
+    "date": "10 February, 2022",
+    "time": "2.1 hrs",
+    "link": "./res/Certificates/CompTIA Network+/N10-008/Network Management and Operations/certificate.pdf"
+  }
+]

@@ -1,8 +1,15 @@
-function fetchCertificates(param) {
-  fetch(`./data/${param}-certificates.json`)
+function fetchCertificates(param, value) {
+  const list = document.getElementById(`${param}-row`);
+  while (list.firstChild) {
+    list.removeChild(list.firstChild);
+  }
+
+  fetch(`./data/${value}-certificates.json`)
     .then((response) => response.json())
     .then((certificates) => {
       const list = document.getElementById(`${param}-row`);
+
+      console.log(list);
 
       certificates.forEach((cert) => {
         const div = document.createElement("div");

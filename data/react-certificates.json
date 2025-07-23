@@ -1,0 +1,38 @@
+[
+  {
+    "title": "React: The Big Picture",
+    "date": "15 February, 2024",
+    "time": "1.2 hrs",
+    "link": "./res/Certificates/React/React The Big Picture/certificate.pdf"
+  },
+  {
+    "title": "What Is React?",
+    "date": "15 February, 2024",
+    "time": "1.6 hrs",
+    "link": "./res/Certificates/React/What Is React/certificate.pdf"
+  },
+  {
+    "title": "React 18: The Big Picture",
+    "date": "20 February, 2024",
+    "time": "1.1 hrs",
+    "link": "./res/Certificates/React/React 18 The Big Picture/certificate.pdf"
+  },
+  {
+    "title": "React 18 Fundamentals",
+    "date": "2 March, 2024",
+    "time": "2.8 hrs",
+    "link": "./res/Certificates/React/React 18 Fundamentals/certificate.pdf"
+  },
+  {
+    "title": "React 17: Getting Started",
+    "date": "22 April, 2024",
+    "time": "4 hrs",
+    "link": "./res/Certificates/React/React 17 Getting Started/certificate.pdf"
+  },
+  {
+    "title": "Working with Components in React 18",
+    "date": "17 June, 2024",
+    "time": "3.4 hrs",
+    "link": "./res/Certificates/React/Working with Components in React 18/certificate.pdf"
+  }
+]

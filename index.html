@@ -78,6 +78,9 @@
                 <a class="nav-link" href="#work"> Work </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#certificates"> Certificates </a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#contact"> Contact </a>
               </li>
             </ul>
@@ -215,8 +218,9 @@
         </div>
       </section>
       <!-- CERTIFICATES -->
-      <section class="container my-5 nv-certf">
+      <section class="container my-5 nv-certf" id="certificates">
         <h1>Courses and Certificates</h1>
+        <h2>Web & Development Technologies</h2>
         <ul
           class="nav nav-pills justify-content-space-between flex-wrap mb-4"
           id="categoryMenu"
@@ -225,8 +229,8 @@
             <a
               class="nav-link navl-clor"
               data-bs-toggle="pill"
-              href="#html5"
-              onclick="fetchCertificates('html5')"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','html5')"
             >
               <div class="nv-skll">
                 <svg
@@ -245,7 +249,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor" data-bs-toggle="pill" href="#css" onclick="fetchCertificates('css')">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','css')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -263,7 +272,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor" data-bs-toggle="pill" href="#javascript" onclick="fetchCertificates('js')">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','js')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -281,7 +295,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor" data-bs-toggle="pill" href="#typescript" onclick="fetchCertificates('ts')">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','ts')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -303,7 +322,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor" data-bs-toggle="pill" href="#angular" onclick="fetchCertificates('angular')">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','angular')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +345,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor active" data-bs-toggle="pill" href="#reactjs" onclick="fetchCertificates('react')">
+            <a
+              class="nav-link navl-clor active"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','react')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -339,7 +368,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor" data-bs-toggle="pill" href="#vuejs" onclick="fetchCertificates('vue')">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','vue')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -357,7 +391,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor" data-bs-toggle="pill" href="#nodejs" onclick="fetchCertificates('node')">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','node')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -468,7 +507,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor" data-bs-toggle="pill" href="#jquery" onclick="fetchCertificates('jquery')">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','jquery')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -485,7 +529,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navl-clor" data-bs-toggle="pill" href="#cpp" onclick="fetchCertificates('cpp')">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#dev-cert"
+              onclick="fetchCertificates('dev','cpp')"
+            >
               <div class="nv-skll">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -532,14 +581,137 @@
                 </svg>
               </div>
             </a>
-          </li>          
+          </li>
         </ul>
         <div class="tab-content">
-          <!-- HTML5 -->
-          <div class="tab-pane fade" id="html5">
-            <div class="row g-4" id="html5-row"></div>
+          <div class="tab-pane fade" id="dev-cert">
+            <div class="row g-4" id="dev-row"></div>
           </div>
-          
+        </div>
+      </section>
+      <section class="container my-5 nv-certf">
+        <h2>CompTIA</h2>
+        <ul
+          class="nav nav-pills justify-content-space-between flex-wrap mb-4"
+          id="categoryMenu2"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#comptia-cert"
+              onclick="fetchCertificates('comptia','a+')"
+            >
+              <div class="nv-skll">
+                <img
+                  src="./res/icons/comptia-a+.png"
+                  alt="CompTIA A+"
+                  height="64"
+                />
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#comptia-cert"
+              onclick="fetchCertificates('comptia','network+')"
+            >
+              <div class="nv-skll">
+                <img
+                  src="./res/icons/comptia-network+.png"
+                  alt="CompTIA Network+"
+                  height="64"
+                />
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#comptia-cert"
+              onclick="fetchCertificates('comptia','server+')"
+            >
+              <div class="nv-skll">
+                <img
+                  src="./res/icons/comptia-server+.png"
+                  alt="CompTIA Server+"
+                  height="64"
+                />
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#comptia-cert"
+              onclick="fetchCertificates('comptia','security+')"
+            >
+              <div class="nv-skll">
+                <img
+                  src="./res/icons/comptia-security+.png"
+                  alt="CompTIA Security+"
+                  height="64"
+                />
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#comptia-cert"
+              onclick="fetchCertificates('comptia','cysa+')"
+            >
+              <div class="nv-skll">
+                <img
+                  src="./res/icons/comptia-cysa+.png"
+                  alt="CompTIA CySA+"
+                  height="64"
+                />
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#comptia-cert"
+              onclick="fetchCertificates('comptia','pentest+')"
+            >
+              <div class="nv-skll">
+                <img
+                  src="./res/icons/comptia-pentest+.png"
+                  alt="CompTIA PenTest+"
+                  height="64"
+                />
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link navl-clor"
+              data-bs-toggle="pill"
+              href="#comptia-cert"
+              onclick="fetchCertificates('comptia','securityx')"
+            >
+              <div class="nv-skll">
+                <img
+                  src="./res/icons/comptia-securityx.png"
+                  alt="CompTIA SecurityX"
+                  height="64"
+                />
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade" id="comptia-cert">
+            <div class="row g-4" id="comptia-row"></div>
+          </div>
         </div>
       </section>
       <!-- CONTACT SECTION -->

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "TypeScript The Big Picture",
+    "date": "14 February, 2024",
+    "time": "0.7 hrs",
+    "link": "./res/Certificates/TypeScript/TypeScript The Big Picture/certificate.pdf"
+  },
+  {
+    "title": "TypeScript 4 Getting Started",
+    "date": "26 February, 2024",
+    "time": "3 hrs",
+    "link": "./res/Certificates/TypeScript/TypeScript 4 Getting Started/certificate.pdf"
+  },
+  {
+    "title": "Creating Object-oriented TypeScript Code",
+    "date": "27 March, 2024",
+    "time": "2.2 hrs",
+    "link": "./res/Certificates/TypeScript/Creating Object-oriented TypeScript Code/certificate.pdf"
+  },
+  {
+    "title": "Creating Asynchronous TypeScript Code",
+    "date": "16 April, 2024",
+    "time": "1.9 hrs",
+    "link": "./res/Certificates/TypeScript/Creating Asynchronous TypeScript Code/certificate.pdf"
+  },
+  {
+    "title": "Configuring, Compiling, and Debugging",
+    "date": "5 May, 2024",
+    "time": "2.1 hrs",
+    "link": "./res/Certificates/TypeScript/Configuring, Compiling, and Debugging TypeScript 4 Projects/certificate.pdf"
+  },
+  {
+    "title": "Using TypeScript 4 Modules",
+    "date": "17 June, 2024",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/TypeScript/Using TypeScript 4 Modules/certificate.pdf"
+  },
+  {
+    "title": "Creating and Using Generics",
+    "date": "23 February, 2025",
+    "time": "0.8 hrs",
+    "link": "./res/Certificates/TypeScript/Creating and Using Generics in TypeScript 4/certificate.pdf"
+  }
+]

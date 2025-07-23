@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Quick Start to JavaScript: Vol. 1",
+    "date": "30 December, 2017",
+    "time": "1.7 hrs",
+    "link": "./res/Certificates/JavaScript/Quick Start to JavaScript/certificate-1.pdf"
+  },
+  {
+    "title": "Quick Start to JavaScript: Vol. 2",
+    "date": "1 January, 2018",
+    "time": "1.9 hrs",
+    "link": "./res/Certificates/JavaScript/Quick Start to JavaScript/certificate-2.pdf"
+  },
+  {
+    "title": "Quick Start to JavaScript: Vol. 3",
+    "date": "1 January, 2018",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/JavaScript/Quick Start to JavaScript/certificate-3.pdf"
+  },
+  {
+    "title": "Objects and Prototypes",
+    "date": "3 January, 2018",
+    "time": "0.8 hrs",
+    "link": "./res/Certificates/JavaScript/Objects and Prototypes/certificate.pdf"
+  },
+  {
+    "title": "Syntax and Operators",
+    "date": "19 September, 2023",
+    "time": "1.7 hrs",
+    "link": "./res/Certificates/JavaScript/Syntax and Operators/certificate.pdf"
+  },
+  {
+    "title": "Variables and Types",
+    "date": "13 October, 2023",
+    "time": "0.7 hrs",
+    "link": "./res/Certificates/JavaScript/Variables and Types/certificate.pdf"
+  },
+  {
+    "title": "Objects, Prototypes, and Classes",
+    "date": "30 October, 2023",
+    "time": "1.8 hrs",
+    "link": "./res/Certificates/JavaScript/Objects, Prototypes, and Classes/certificate.pdf"
+  },
+  {
+    "title": "Functions",
+    "date": "20 November, 2023",
+    "time": "0.8 hrs",
+    "link": "./res/Certificates/JavaScript/Functions/certificate.pdf"
+  },
+  {
+    "title": "Arrays and Collections",
+    "date": "1 December, 2023",
+    "time": "2 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript Arrays and Collections/certificate.pdf"
+  },
+  {
+    "title": "Modules",
+    "date": "8 December, 2023",
+    "time": "0.8 hrs",
+    "link": "./res/Certificates/JavaScript/Working with JavaScript Modules/certificate.pdf"
+  },
+  {
+    "title": "Promises and Async Programming",
+    "date": "3 January, 2024",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/JavaScript/Promises and Async Programming/certificate.pdf"
+  },
+  {
+    "title": "JavaScript Security Best Practices",
+    "date": "6 January, 2024",
+    "time": "1.5 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript Security Best Practices/certificate.pdf"
+  },
+  {
+    "title": "Practical Design Patterns",
+    "date": "20 January, 2024",
+    "time": "3.2 hrs",
+    "link": "./res/Certificates/JavaScript/Practical Design Patterns/certificate.pdf"
+  },
+  {
+    "title": "JavaScript Best Practices",
+    "date": "22 January, 2024",
+    "time": "2.7 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript Best Practices/certificate.pdf"
+  },
+  {
+    "title": "Advanced Techniques in JavaScript and jQuery",
+    "date": "28 January, 2024",
+    "time": "3.3 hrs",
+    "link": "./res/Certificates/JavaScript/Advanced Techniques in JavaScript and jQuery/certificate.pdf"
+  },
+  {
+    "title": "JavaScript Getting Started",
+    "date": "29 January, 2024",
+    "time": "4 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript Getting Started/certificate.pdf"
+  },
+  {
+    "title": "JavaScript Fundamentals",
+    "date": "31 January, 2024",
+    "time": "3 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript Fundamentals/certificate.pdf"
+  },
+  {
+    "title": "Generators and Iterators",
+    "date": "1 February, 2024",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/JavaScript/Javascript Generators and Iterators/certificate.pdf"
+  },
+  {
+    "title": "Rapid ES6 Training",
+    "date": "10 February, 2024",
+    "time": "4.3 hrs",
+    "link": "./res/Certificates/JavaScript/Rapid ES6 Training/certificate.pdf"
+  },
+  {
+    "title": "Javascript The Big Picture",
+    "date": "12 February, 2024",
+    "time": "0.9 hrs",
+    "link": "./res/Certificates/JavaScript/Javascript The Big Picture/certificate.pdf"
+  },
+  {
+    "title": "JavaScript REST APIs: The Big Picture",
+    "date": "13 February, 2024",
+    "time": "0.6 hrs",
+    "link": "./res/Certificates/JavaScript/REST APIs/JavaScript REST APIs The Big Picture/certificate.pdf"
+  },
+  {
+    "title": "JavaScript REST APIs: Getting Started",
+    "date": "19 February, 2024",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/JavaScript/REST APIs/Getting Started/certificate.pdf"
+  },
+  {
+    "title": "Building CRUD Actions in a JavaScript REST API",
+    "date": "23 February, 2024",
+    "time": "1.7 hrs",
+    "link": "./res/Certificates/JavaScript/REST APIs/Building CRUD Actions in a JavaScript REST API/certificate.pdf"
+  },
+  {
+    "title": "Uploading Files with a JavaScript REST API",
+    "date": "3 March, 2024",
+    "time": " 1.4 hrs",
+    "link": "./res/Certificates/JavaScript/REST APIs/Uploading Files with a JavaScript REST API/certificate.pdf"
+  },
+  {
+    "title": "JavaScript Fundamentals",
+    "date": "5 March, 2024",
+    "time": "6.1 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript Fundamentals/certificate-2.pdf"
+  },
+  {
+    "title": "Arrays and Objects",
+    "date": "25 March, 2024",
+    "time": "1.8 hrs",
+    "link": "./res/Certificates/JavaScript/Arrays and Objects in JavaScript/certificate.pdf"
+  },
+  {
+    "title": "Securing a JavaScript REST API with JSON Web Tokens",
+    "date": "26 March, 2024",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/JavaScript/REST APIs/Securing a JavaScript REST API with JSON Web Tokens/certificate.pdf"
+  },
+  {
+    "title": "Debugging JavaScript Applications",
+    "date": "1 April, 2024",
+    "time": "1.6 hrs",
+    "link": "./res/Certificates/JavaScript/Debugging JavaScript Applications/certificate.pdf"
+  },
+  {
+    "title": "Caching JavaScript REST API Data with Local Storage",
+    "date": "6 April, 2024",
+    "time": "1.5 hrs",
+    "link": "./res/Certificates/JavaScript/REST APIs/Caching JavaScript REST API Data with Local Storage/certificate.pdf"
+  },
+  {
+    "title": "Strings and Regular Expressions",
+    "date": "5 May, 2024",
+    "time": "1.9 hrs",
+    "link": "./res/Certificates/JavaScript/Strings and Regular Expressions in JavaScript/certificate.pdf"
+  },
+  {
+    "title": "Functions in JavaScript",
+    "date": "17 June, 2024",
+    "time": "2.3 hrs",
+    "link": "./res/Certificates/JavaScript/Functions in JavaScript/certificate.pdf"
+  },
+  {
+    "title": "Error Handling",
+    "date": "22 June, 2024",
+    "time": "0.5 hrs",
+    "link": "./res/Certificates/JavaScript/Error Handling in JavaScript/certificate.pdf"
+  },
+  {
+    "title": "Looping and Branching",
+    "date": "1 July, 2024",
+    "time": "1.3 hrs",
+    "link": "./res/Certificates/JavaScript/Looping and Branching in JavaScript/certificate.pdf"
+  },
+  {
+    "title": "Asynchronous Programming",
+    "date": "26 January, 2025",
+    "time": "1.3 hrs",
+    "link": "./res/Certificates/JavaScript/Asynchronous Programming in JavaScript/certificate.pdf"
+  },
+  {
+    "title": "Network Requests",
+    "date": "22 February, 2025",
+    "time": "2 hrs",
+    "link": "./res/Certificates/JavaScript/Network Requests in JavaScript/certificate.pdf"
+  },
+  {
+    "title": "Building a JS Development Environment",
+    "date": "25 February, 2025",
+    "time": "1.7 hrs",
+    "link": "./res/Certificates/JavaScript/Building a JS Development Environment/certificate.pdf"
+  },
+  {
+    "title": "Modules in JavaScript",
+    "date": "7 March, 2025",
+    "time": "1.9 hrs",
+    "link": "./res/Certificates/JavaScript/Modules in JavaScript/certificate.pdf"
+  },
+  {
+    "title": "JavaScript in the Browser",
+    "date": "13 March, 2025",
+    "time": "2.3 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript in the Browser/certificate.pdf"
+  },
+  {
+    "title": "Package Management with NPM and YARN",
+    "date": "23 March, 2025",
+    "time": "2.1 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript Package Management with NPM and YARN/certificate.pdf"
+  },
+  {
+    "title": "JavaScript Unit Testing with Jest",
+    "date": "27 March, 2025",
+    "time": "1.6 hrs",
+    "link": "./res/Certificates/JavaScript/JavaScript Unit Testing with Jest/certificate.pdf"
+  }
+]

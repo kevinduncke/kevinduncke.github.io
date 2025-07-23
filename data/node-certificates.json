@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Node.js 12: The Big Picture",
+    "date": "13 February, 2024",
+    "time": "0.9 hrs",
+    "link": "./res/Certificates/Node.JS/Node.js 12 The Big Picture/certificate.pdf"
+  },
+  {
+    "title": "Node.js 12: Getting Started",
+    "date": "27 February, 2024",
+    "time": "3.5 hrs",
+    "link": "./res/Certificates/Node.JS/Node.js 12 Getting Started/certificate.pdf"
+  },
+  {
+    "title": "Getting Started with NPM 4",
+    "date": "4 March, 2024",
+    "time": "1 hrs",
+    "link": "./res/Certificates/Node.JS/Getting Started with NPM 4/certificate.pdf"
+  },
+  {
+    "title": "Automating Node.js 6 with NPM Scripts",
+    "date": "3 May, 2024",
+    "time": "2.5 hrs",
+    "link": "./res/Certificates/Node.JS/Automating Node.js 6 with NPM Scripts/certificate.pdf"
+  },
+  {
+    "title": "Using MongoDB with Node.js",
+    "date": "23 July, 2024",
+    "time": "1.3 hrs",
+    "link": "./res/Certificates/Node.JS/Using MongoDB with Node.js/certificate.pdf"
+  },
+  {
+    "title": "Building Web Apps with NodeJS and Express",
+    "date": "22 February, 2025",
+    "time": "2.9 hrs",
+    "link": "./res/Certificates/Node.JS/Building Web Apps with NodeJS and Express/certificate.pdf"
+  },
+  {
+    "title": "HTTP with Node.js 12",
+    "date": "23 March, 2025",
+    "time": "1 hrs",
+    "link": "./res/Certificates/Node.JS/HTTP with Node.js 12/certificate.pdf"
+  }
+]
