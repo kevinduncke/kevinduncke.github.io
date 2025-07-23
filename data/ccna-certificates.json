@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Introduction to Networking for Cisco CCNA",
+    "date": "1 March, 2022",
+    "time": "1.9 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Introduction to Networking/certificate.pdf"
+  },
+  {
+    "title": "Network Layer Addressing and Subnetting",
+    "date": "3 March, 2022",
+    "time": "3.8 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Network Layer Addressing and Subnetting/certificate.pdf"
+  },
+  {
+    "title": "Configuring a Cisco Router",
+    "date": "3 March, 2022",
+    "time": "2.7 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Configuring a Cisco Router/certificate.pdf"
+  },
+  {
+    "title": "Ethernet Operation and Switch Configuration",
+    "date": "4 March, 2022",
+    "time": "3.1 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Ethernet Operation and Switch Configuration/certificate.pdf"
+  },
+  {
+    "title": "Routing IPv4 and IPv6",
+    "date": "7 March, 2022",
+    "time": "4.8 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Routing IPv4 and IPv6/certificate.pdf"
+  },
+  {
+    "title": "Introduction to Dynamic Routing",
+    "date": "10 March, 2022",
+    "time": "3.4 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Introduction to Dynamic Routing/certificate.pdf"
+  },
+  {
+    "title": "VLAN Operation and Configuration",
+    "date": "12 March, 2022",
+    "time": "2.4 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/VLAN Operation and Configuration/certificate.pdf"
+  },
+  {
+    "title": "Securing the Switch",
+    "date": "14 March, 2022",
+    "time": "2.4 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Securing the Switch/certificate.pdf"
+  },
+  {
+    "title": "TCP and UDP Operation",
+    "date": "15 March, 2022",
+    "time": "2 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/TCP and UDP Operation/certificate.pdf"
+  },
+  {
+    "title": "Implementing Application Layer Protocols for Cisco Networks",
+    "date": "18 March, 2022",
+    "time": "2.8 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Implementing Application Layer Protocols for Cisco Networks/certificate.pdf"
+  },
+  {
+    "title": "Building, Configuring, and Troubleshooting ACLs",
+    "date": "19 March, 2022",
+    "time": "2.6 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Building, Configuring, and Troubleshooting ACLs/certificate.pdf"
+  },
+  {
+    "title": "Network Address Translation Operation and Configuration",
+    "date": "19 March, 2022",
+    "time": "1.6 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Network Address Translation Operation and Configuration/certificate.pdf"
+  },
+  {
+    "title": "Wide Area Networking and VPN Operation",
+    "date": "20 March, 2022",
+    "time": "1.3 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Wide Area Networking and VPN Operation/certificate.pdf"
+  },
+  {
+    "title": "STP and EtherChannel Operation and Configuration",
+    "date": "21 March, 2022",
+    "time": "2.8 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/STP and EtherChannel Operation and Configuration/certificate.pdf"
+  },
+  {
+    "title": "Basic Security Concepts for Cisco Networks",
+    "date": "21 March, 2022",
+    "time": "1.6 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Basic Security Concepts for Cisco Networks/certificate.pdf"
+  },
+  {
+    "title": "Cisco Wireless Basic Operation and Configuration",
+    "date": "22 March, 2022",
+    "time": "1.6 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Cisco Wireless Basic Operation and Configuration/certificate.pdf"
+  },
+  {
+    "title": "Network Services for Cisco CCNA",
+    "date": "22 March, 2022",
+    "time": "1.1 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Network Services/certificate.pdf"
+  }  ,
+  {
+    "title": "Cisco Topologies and Troubleshooting for CCNA Studies",
+    "date": "23 March, 2022",
+    "time": "1.9 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Cisco Topologies and Troubleshooting/certificate.pdf"
+  }  ,
+  {
+    "title": "Introduction to Cisco Automation and Software Defined Networks",
+    "date": "25 March, 2022",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Introduction to Cisco Automation and Software Defined Networks/certificate.pdf"
+  }  ,
+  {
+    "title": "Building Hardware Labs for CCNA Study",
+    "date": "27 March, 2022",
+    "time": "4.2 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Building Hardware Labs/certificate.pdf"
+  }  ,
+  {
+    "title": "Building Packet Tracer Labs for CCNA Study: Fundamentals",
+    "date": "31 March, 2022",
+    "time": "5.4 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Building Packet Tracer Labs/certificate.pdf"
+  }  ,
+  {
+    "title": "Building Packet Tracer Labs for CCNA Study: Network Protocol Interactions",
+    "date": "7 April, 2022",
+    "time": "4.3 hrs",
+    "link": "./res/Certificates/Cisco/Cisco CCNA/Building Packet Tracer Labs II/certificate.pdf"
+  }    
+]
