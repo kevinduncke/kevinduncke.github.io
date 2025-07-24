@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Selecting the Right Tool for Your Red Team Operation",
+    "date": "19 November, 2021",
+    "time": "1.5 hrs",
+    "link": "./res/Certificates/Red Team/Right tool for your Red Team Operation/certificate.pdf"
+  },
+  {
+    "title": "Assessing Red Team Post Exploitation Activity",
+    "date": "20 November, 2021",
+    "time": "1.1 hrs",
+    "link": "./res/Certificates/Red Team/Assessing Red Team Post Exploitation/certificate.pdf"
+  },
+  {
+    "title": "Red Team Tools for Emulated Adversary Techniques with MITRE ATT&CK",
+    "date": "15 May, 2022",
+    "time": "0.3 hrs",
+    "link": "./res/Certificates/Red Team/Red Team Tools for Emulated Adversary Techniques with MITRE ATT&CK/certificate.pdf"
+  },
+  {
+    "title": "Reconnaissance with OWASP Amass",
+    "date": "16 May, 2022",
+    "time": "0.3 hrs",
+    "link": "./res/Certificates/Red Team/Reconnaissance with OWASP Amass/certificate.pdf"
+  },
+  {
+    "title": "Reconnaissance with Sn1per",
+    "date": "17 May, 2022",
+    "time": "0.3 hrs",
+    "link": "./res/Certificates/Red Team/Reconnaissance with Sn1per/certificate.pdf"
+  },
+  {
+    "title": "Technical Information Gathering with theHarvester",
+    "date": "18 May, 2022",
+    "time": "0.3 hrs",
+    "link": "./res/Certificates/Red Team/Technical Information Gathering with theHarvester/certificate.pdf"
+  },
+  {
+    "title": "Technical Information Gathering with Recon-ng 5",
+    "date": "19 May, 2022",
+    "time": "0.7 hrs",
+    "link": "./res/Certificates/Red Team/Technical Information Gathering with Recon-ng 5/certificate.pdf"
+  },
+  {
+    "title": "Technical Information Gathering with Maltego CE 4",
+    "date": "21 May, 2022",
+    "time": "0.4 hrs",
+    "link": "./res/Certificates/Red Team/Technical Information Gathering with Maltego CE 4/certificate.pdf"
+  },
+  {
+    "title": "People Information Gathering with the Social Engineering Toolkit (SET)",
+    "date": "9 January, 2024",
+    "time": "0.4 hrs",
+    "link": "./res/Certificates/Red Team/People Information Gathering with the Social Engineering Toolkit (SET)/certificate.pdf"
+  },
+  {
+    "title": "Technical Weakness Identification with Nikto 2",
+    "date": "11 January, 2024",
+    "time": "0.4 hrs",
+    "link": "./res/Certificates/Red Team/Technical Weakness Identification with Nikto 2/certificate.pdf"
+  },
+  {
+    "title": "econnaissance with Shodan",
+    "date": "11 January, 2024",
+    "time": "0.5 hrs",
+    "link": "./res/Certificates/Red Team/Reconnaissance with Shodan/certificate.pdf"
+  },
+  {
+    "title": "Reconnaissance with Spiderfoot",
+    "date": "12 January, 2024",
+    "time": "0.7 hrs",
+    "link": "./res/Certificates/Red Team/Reconnaissance with Spiderfoot/certificate.pdf"
+  },
+  {
+    "title": "Reconnaissance with EyeWitness",
+    "date": "6 November, 2024",
+    "time": "0.2 hrs",
+    "link": "./res/Certificates/Red Team/Reconnaissance with EyeWitness/certificate.pdf"
+  },
+  {
+    "title": "Privilege Escalation and Client Execution with MSFVenom",
+    "date": "1 October, 2024",
+    "time": "0.4 hrs",
+    "link": "./res/Certificates/Red Team/Privilege Escalation and Client Execution with MSFVenom/certificate.pdf"
+  },
+  {
+    "title": "Reconnaissance with Gobuster",
+    "date": "20 November, 2024",
+    "time": "0.2 hrs",
+    "link": "./res/Certificates/Red Team/Reconnaissance with Gobuster/certificate.pdf"
+  },
+  {
+    "title": "Initial Access with Aircrack-ng",
+    "date": "23 November, 2024",
+    "time": "0.4 hrs",
+    "link": "./res/Certificates/Red Team/Initial Access with Aircrack-ng/certificate.pdf"
+  },
+  {
+    "title": "Initial Access with Luckystrike",
+    "date": "10 December, 2024",
+    "time": "0.6 hrs",
+    "link": "./res/Certificates/Red Team/Initial Access with Luckystrike/certificate.pdf"
+  },
+  {
+    "title": "Initial Access with WiFi-Pumpkin",
+    "date": "16 March, 2025",
+    "time": "0.4 hrs",
+    "link": "./res/Certificates/Red Team/Initial Access with WiFi-Pumpkin/certificate.pdf"
+  },
+  {
+    "title": "Resource Development with GDB",
+    "date": "3 June, 2025",
+    "time": "0.3 hrs",
+    "link": "./res/Certificates/Red Team/Resource Development with GDB/certificate.pdf"
+  }
+]
