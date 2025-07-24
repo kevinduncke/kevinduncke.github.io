@@ -7,10 +7,24 @@ footer {
   align-items: center;
   padding: 25px 0;
   background-color: #252525;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 footer p {
   font-family: "Roboto-Bold", sans-serif;
   margin: 0;
   text-transform: uppercase;
+}
+
+/*------------------- MOBILE --------------------*/
+@media (min-width: 390px) and (max-width: 991px) {
+  footer p {
+    font-size: 14px;
+  }
+}
+
+/*------------------ DESKTOP --------------------*/
+@media (min-width: 992px) {
+  footer p {
+    font-size: 18px;
+  }  
 }

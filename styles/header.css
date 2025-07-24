@@ -1,9 +1,9 @@
 /* HEADER */
+
 header {
   width: 100%;
   height: auto;
   position: relative;
-  padding: 25px 10%;
   background-color: #323232;
 }
 #kd-nvbar {
@@ -27,9 +27,6 @@ header {
   outline: none;
   border: none;
 }
-.navbar-toggler-icon {
-  background-image: none;
-}
 .nav-link {
   font-family: "Roboto-Bold";
   text-decoration: none;
@@ -42,10 +39,16 @@ header {
 .nav-link:hover {
   color: #bacaba;
 }
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
 
 @media (min-width: 390px) and (max-width: 991px) {
   header {
-    padding: 15px 10%;
+    padding: 15px 5%;
   }
   .nav-link {
     padding: 0;
@@ -60,13 +63,16 @@ header {
     margin-top: 15px;
   }
   .navbar-nav {
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
   }
   .nav-item {
     padding: 10px 0;
   }
 }
 @media (min-width: 992px) {
+  header {
+    padding: 15px 5%;
+  }  
   .nav-link {
     letter-spacing: 3px;
     font-size: 16px;

@@ -58,15 +58,15 @@
 }
 
 /* SKILLS */
-.pills-comptia a, .pills-cisco a {
-  padding: 0!important;
+.pills-comptia a,
+.pills-cisco a {
+  padding: 0 !important;
 }
 /* CONTACT */
 .nv-contact {
   background-color: #323232;
   color: #ffffff;
   margin: 0 !important;
-  padding: 10%;
 }
 .nv-ctc-info h1 {
   margin-bottom: 15px;
@@ -82,6 +82,7 @@
   flex-direction: row;
 }
 
+/*------------------- MOBILE --------------------*/
 @media (min-width: 390px) and (max-width: 991px) {
   /* HERO */
   .nv-sect {
@@ -91,13 +92,13 @@
     font-size: 30px;
   }
   .nv-sect h2 {
-    font-size: 25px;
+    font-size: 20px;
     margin: 15px 0;
   }
   .nv-sect p {
-    font-size: 18px;
-    line-height: 35px;
-    margin: 35px 0;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 15px 0;
   }
   .nv-hero {
     display: block;
@@ -108,9 +109,10 @@
 
   /* BIO */
   .nv-bio h1 {
-    font-size: 25px;
+    font-size: 18px;
     color: #ffffff;
-    margin: 25px 0;
+    margin: 15px 0;
+    text-transform: uppercase;
   }
   .nv-bio {
     margin: 0;
@@ -118,7 +120,7 @@
   }
   .nv-bio p {
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
     margin: 15px 0;
   }
 
@@ -127,8 +129,8 @@
     padding: 0;
   }
   .nv-work h1 {
-    font-size: 25px;
-    margin-bottom: 25px;
+    font-size: 18px;
+    margin-bottom: 15px;
   }
   .nv-wk-bxs {
     padding: 15px 15px;
@@ -139,18 +141,23 @@
   }
   .nv-wk-bxs p {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 0;
     margin-bottom: 0;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /* TECH */
-  .nv-tech h1 {
-    font-size: 25px;
+  .nv-courses h1 {
+    font-size: 18px;
     color: #000000;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
+  .nv-courses h2 {
+    font-size: 14px;
+    color: #303030!important;
+    margin-bottom: 15px;
+  }  
   .nv-tech-icons {
     display: flex;
     justify-content: space-between;
@@ -158,6 +165,15 @@
     column-gap: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
+  }
+  .nav-pills {
+    justify-content: center;
+  }
+  .nav-pills li {
+    padding: 10px;
+  } 
+  .nav-pills .nav-link.active {
+    background: none!important;
   }
   .nv-skll {
     padding: 15px 0;
@@ -167,19 +183,48 @@
     width: 34px;
   }
   .nv-skll-svg-jtarv {
-    height: 52px;
-    width: 38px;
+    height: 42px;
+    width: auto;
   }
+  .img-ps-banner {
+    height: 18px;
+    width: auto;
+  }
+  .comptia-img {
+    height: 72px;
+    width: auto;
+  }
+  .card-link {
+    text-decoration: none;
+    color: #000000;
+  }
+  .card-title {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .card-text {
+    font-size: 12px!important;
+    margin-top: 5px!important;
+  }
+  .card:hover {
+    border: 0.5px solid #ffa500 !important;
+    border-radius: 0.375rem;
+  }
+  .card-css:hover {
+    border: 0.5px solid #68bad6 !important;
+    border-radius: 0.375rem;
+  }  
 
   /* CONTACT */
   .nv-contact {
     padding: 10% 5%;
   }
   .nv-ctc-info h1 {
-    font-size: 25px;
+    font-size: 18px;
   }
   .nv-ctc-info p {
-    font-size: 18px;
+    font-size: 14px;
     margin: 0;
   }
   .nv-ctc-icons {
@@ -188,10 +233,12 @@
     margin-top: 25px;
   }
 }
+
+/*------------------ DESKTOP --------------------*/
 @media (min-width: 992px) {
   /* HERO */
   .nv-sect {
-    margin: 13% 10%;
+    margin: 13% 5%;
   }
   .nv-sect h1 {
     font-size: 55px;
@@ -223,7 +270,7 @@
   }
   .nv-bio {
     margin: 0;
-    padding: 100px 10%;
+    padding: 100px 5%;
   }
   .nv-bio p {
     width: 50%;
@@ -232,7 +279,7 @@
 
   /* CERTF */
   .nv-certf {
-    margin: 5% 10%;
+    margin: 5%;
   }
   .nv-certf h1 {
     font-size: 25px;
@@ -243,17 +290,19 @@
     font-size: 16px;
     color: #323232;
     margin-bottom: 25px;
-  }  
+  }
   .navl-clor {
     color: #000000;
   }
   .nav-pills {
+    justify-content: space-between;
     column-gap: 20px !important;
   }
-  .pills-comptia, .pills-cisco {
-    column-gap: 0px!important;
+  .pills-comptia,
+  .pills-cisco {
+    column-gap: 0px !important;
     justify-content: space-between;
-  }  
+  }
   .nav-pills .nav-link.active {
     background-color: #f3f3f3;
   }
@@ -282,7 +331,7 @@
 
   /* WORK */
   .nv-work {
-    margin: 5% 10%;
+    margin: 5%;
   }
   .nv-work h1 {
     font-size: 25px;
@@ -301,6 +350,9 @@
   }
 
   /* CONTACT */
+  .nv-contact {
+    padding: 5%;
+  }
   .nv-ctc-info h1 {
     font-size: 25px;
   }
