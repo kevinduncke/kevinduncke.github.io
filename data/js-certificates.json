@@ -238,5 +238,11 @@
     "date": "27 March, 2025",
     "time": "1.6 hrs",
     "link": "./res/Certificates/JavaScript/JavaScript Unit Testing with Jest/certificate.pdf"
+  },
+  {
+    "title": "Building a REST API in JavaScript with Express",
+    "date": "27 July, 2025",
+    "time": "1.4 hrs",
+    "link": "./res/Certificates/JavaScript/Building a REST API in JavaScript with Express/certificate.pdf"
   }
 ]
