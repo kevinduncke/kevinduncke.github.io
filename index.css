@@ -8,10 +8,14 @@ body {
     color: #000000;
 }
 @font-face {
-    font-family: Roboto-Regular;
-    src: url(./res/fonts/Roboto/Roboto-Regular.ttf);
+    font-family: Exo2-Light;
+    src: url(./res/fonts/Exo/Exo2-Light.ttf);
 }
 @font-face {
-    font-family: Roboto-Bold;
-    src: url(./res/fonts/Roboto/Roboto-Bold.ttf);
+    font-family: Exo2-Medium;
+    src: url(./res/fonts/Exo/Exo2-Medium.ttf);
+}
+@font-face {
+    font-family: Exo2-Bold;
+    src: url(./res/fonts/Exo/Exo2-Bold.ttf);
 }

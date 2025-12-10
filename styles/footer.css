@@ -10,7 +10,7 @@ footer {
   color: #ffffff;
 }
 footer p {
-  font-family: "Roboto-Bold", sans-serif;
+  font-family: "Exo2-Medium";
   margin: 0;
   text-transform: uppercase;
 }
@@ -25,6 +25,6 @@ footer p {
 /*------------------ DESKTOP --------------------*/
 @media (min-width: 992px) {
   footer p {
-    font-size: 18px;
+    font-size: 14px;
   }  
 }
