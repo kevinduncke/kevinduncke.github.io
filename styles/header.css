@@ -32,6 +32,9 @@ header {
   color: #ffffff;
   text-transform: uppercase;
 }
+.nav-lg {
+  font-family: "Exo2-Bold";
+}
 .active {
   color: #00bbff !important;
 }
@@ -50,22 +53,25 @@ header {
   .nav-link {
     padding: 0;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .nav-lg {
+    border: none;
+    font-size: 18px;
   }
   .navbar-nav {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  #kd-navbar-cllps {
-    margin-top: 15px;
+    flex-direction: column;
   }
   .navbar-nav {
     margin-bottom: 0 !important;
   }
   .nav-item {
     padding: 10px 0;
+    margin: 15px 0;
+    border-bottom: 2.5px solid #393939;
   }
 }
+
 @media (min-width: 992px) {
   header {
     padding: 15px 5%;
