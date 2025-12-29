@@ -25,30 +25,11 @@
   text-decoration: none;
   color: #132aaa;
 }
-
-/* SKILLS */
-.pills-comptia a,
-.pills-cisco a {
-  padding: 0 !important;
-}
-/* CONTACT */
-.nv-contact {
-  background-color: #323232;
-  color: #ffffff;
-  margin: 0 !important;
-}
-.nv-ctc-info h1 {
-  margin-bottom: 15px;
-  color: #ffffff;
-}
-.nv-ctc-info a {
-  text-decoration: none;
-  color: #ffffff;
-  font-family: "Roboto-Bold";
-}
-.nv-ctc-icons {
+.nv-subul {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 /*------------------- MOBILE --------------------*/
@@ -59,7 +40,7 @@
   }
   .nv-hero {
     display: block;
-  }  
+  }
   .nv-sect h1 {
     font-size: 35px;
   }
@@ -78,99 +59,20 @@
   .nv-hero li a {
     font-size: 18px;
   }
-
-  /* TECH */
-  .nv-courses h1 {
-    font-size: 18px;
-    color: #000000;
-    margin-bottom: 15px;
+  .nv-hero div {
+    width: 100%;
   }
-  .nv-courses h2 {
-    font-size: 14px;
-    color: #303030 !important;
-    margin-bottom: 15px;
-  }
-  .nv-tech-icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 5px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  .nav-pills {
-    justify-content: center;
-  }
-  .nav-pills li {
-    padding: 10px;
-  }
-  .nav-pills .nav-link.active {
-    background: none !important;
-  }
-  .nv-skll {
-    padding: 15px 0;
-  }
-  .nv-skll-svg-hc {
-    height: 42px;
-    width: 34px;
-  }
-  .nv-skll-svg-jtarv {
-    height: 42px;
-    width: auto;
-  }
-  .img-ps-banner {
-    height: 18px;
-    width: auto;
-  }
-  .comptia-img {
-    height: 72px;
-    width: auto;
-  }
-  .card-link {
-    text-decoration: none;
-    color: #000000;
-  }
-  .card-title {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
-  .card-text {
-    font-size: 12px !important;
-    margin-top: 5px !important;
-  }
-  .card:hover {
-    border: 0.5px solid #ffa500 !important;
-    border-radius: 0.375rem;
-  }
-  .card-css:hover {
-    border: 0.5px solid #68bad6 !important;
-    border-radius: 0.375rem;
-  }
-
-  /* CONTACT */
-  .nv-contact {
-    padding: 10% 5%;
-  }
-  .nv-ctc-info h1 {
-    font-size: 18px;
-  }
-  .nv-ctc-info p {
-    font-size: 14px;
-    margin: 0;
-  }
-  .nv-ctc-icons {
-    justify-content: start;
-    column-gap: 25px;
-    margin-top: 25px;
-  }
+  .nv-subul {
+    justify-content: flex-start;
+    gap: 5%;
+  }  
 }
 
 /*------------------ DESKTOP --------------------*/
 @media (min-width: 992px) {
   /* HERO */
   .nv-sect {
-    margin: 13% 5%;
+    margin: 8% 5%;
   }
   .nv-sect h1 {
     font-size: 55px;
@@ -187,6 +89,8 @@
   .nv-hero {
     display: flex;
     column-gap: 10%;
+    flex-wrap: wrap;
+    align-items: center;
   }
   #nv-bprofile {
     height: 300px;
@@ -199,75 +103,11 @@
   }
   .nv-hero li a {
     font-size: 18px;
-  }  
-
-  /* CERTF */
-  .nv-certf {
-    margin: 5%;
   }
-  .nv-certf h1 {
-    font-size: 25px;
-    color: #000000;
-    margin-bottom: 25px;
+  .nv-hero div {
+    width: 75%;
   }
-  .nv-certf h2 {
-    font-size: 16px;
-    color: #323232;
-    margin-bottom: 25px;
-  }
-  .navl-clor {
-    color: #000000;
-  }
-  .nav-pills {
-    justify-content: space-between;
-    column-gap: 20px !important;
-  }
-  .pills-comptia,
-  .pills-cisco {
-    column-gap: 0px !important;
-    justify-content: space-between;
-  }
-  .nav-pills .nav-link.active {
-    background-color: #f3f3f3;
-  }
-  .nv-skll {
-    padding: 0;
-  }
-  .card-link {
-    text-decoration: none;
-    color: #000000;
-  }
-  .img-ps-banner {
-    height: 18px;
-    width: auto;
-  }
-  .card-title {
-    margin-top: 15px;
-  }
-  .card:hover {
-    border: 0.5px solid #ffa500 !important;
-    border-radius: 0.375rem;
-  }
-  .card-css:hover {
-    border: 0.5px solid #68bad6 !important;
-    border-radius: 0.375rem;
-  }
-
-  /* CONTACT */
-  .nv-contact {
-    padding: 5%;
-  }
-  .nv-ctc-info h1 {
-    font-size: 25px;
-  }
-  .nv-ctc-info p {
-    font-size: 18px;
+  .nv-subul li {
     margin: 0;
-  }
-  .nv-ctc-icons {
-    justify-content: left;
-    align-items: center;
-    column-gap: 25px;
-    margin-top: 25px;
   }
 }

@@ -45,7 +45,15 @@ header {
   outline: none;
   box-shadow: none;
 }
+.kd-copy {
+  font-family: "Exo2-Medium";
+  color: white;
+  margin: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+/*------------------- MOBILE --------------------*/
 @media (min-width: 390px) and (max-width: 991px) {
   header {
     padding: 25px 5%;
@@ -70,8 +78,12 @@ header {
     margin: 15px 0;
     border-bottom: 2.5px solid #393939;
   }
+  .kd-copy {
+    font-size: 16px;
+  }
 }
 
+/*------------------ DESKTOP --------------------*/
 @media (min-width: 992px) {
   header {
     padding: 15px 5%;
@@ -82,5 +94,8 @@ header {
   }
   .navbar-nav {
     column-gap: 15px;
+  }
+  .kd-copy {
+    display: none;
   }
 }

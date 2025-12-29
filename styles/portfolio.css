@@ -2,21 +2,6 @@
 .nv-work h1 {
   color: #000000;
 }
-.nv-wk-boxs {
-  display: flex;
-  flex-direction: column;
-  row-gap: 25px;
-}
-.nv-wk-boxs a {
-  text-decoration: none;
-  color: #000000;
-}
-.nv-wk-bxs {
-  background: linear-gradient(to right, rgb(253, 253, 253), rgb(255, 255, 255));
-}
-.nv-wk-bxs:hover {
-  background: linear-gradient(to right, rgb(250, 250, 250), rgb(252, 252, 252));
-}
 
 /*------------------- MOBILE --------------------*/
 @media (min-width: 390px) and (max-width: 991px) {
@@ -27,20 +12,6 @@
   .nv-work h1 {
     font-size: 18px;
     margin-bottom: 15px;
-  }
-  .nv-wk-bxs {
-    padding: 15px 15px;
-    border-radius: 15px;
-  }
-  .nv-wk-bxs-icon {
-    padding: 0 0 5px 0;
-  }
-  .nv-wk-bxs p {
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 30px;
-    font-size: 14px;
   }
 }
 
@@ -53,16 +24,5 @@
   .nv-work h1 {
     font-size: 25px;
     margin-bottom: 25px;
-  }
-  .nv-wk-bxs {
-    padding: 25px 25px;
-    border-radius: 15px;
-  }
-  .nv-wk-bxs-icon {
-    padding: 0 0 25px 0;
-  }
-  .nv-wk-bxs p {
-    width: 75%;
-    margin-bottom: 0;
   }
 }
