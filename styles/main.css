@@ -16,6 +16,15 @@
 .nv-sect h2 {
   color: #000000 !important;
 }
+.nv-hero ul {
+  list-style: none;
+  padding: 0;
+}
+.nv-hero a {
+  font-family: "Exo2-Medium";
+  text-decoration: none;
+  color: #132aaa;
+}
 
 /* SKILLS */
 .pills-comptia a,
@@ -48,40 +57,26 @@
   .nv-sect {
     margin: 13% 5%;
   }
+  .nv-hero {
+    display: block;
+  }  
   .nv-sect h1 {
     font-size: 35px;
   }
   .nv-sect h2 {
-    font-size: 20px;
-    margin: 15px 0;
+    font-size: 25px;
+    margin: 40px 0;
   }
   .nv-sect p {
-    font-size: 14px;
-    line-height: 1.6em;
-    margin: 15px 0;
-  }
-  .nv-hero {
-    display: block;
-  }
-  #nv-bprofile {
-    display: none;
-  }
-
-  /* BIO */
-  .nv-bio h1 {
     font-size: 18px;
-    color: #ffffff;
-    margin: 15px 0;
-    text-transform: uppercase;
+    line-height: 1.6em;
+    margin: 40px 0;
   }
-  .nv-bio {
-    margin: 0;
-    padding: 10% 5%;
-  }
-  .nv-bio p {
-    width: 100%;
-    font-size: 14px;
+  .nv-hero li {
     margin: 15px 0;
+  }
+  .nv-hero li a {
+    font-size: 18px;
   }
 
   /* TECH */
@@ -199,21 +194,12 @@
     border-top-left-radius: 100px;
     border-bottom-right-radius: 50px;
   }
-
-  /* BIO */
-  .nv-bio h1 {
-    font-size: 25px;
-    color: #ffffff;
-    margin-bottom: 25px;
+  .nv-hero li {
+    margin: 25px 0;
   }
-  .nv-bio {
-    margin: 0;
-    padding: 100px 5%;
-  }
-  .nv-bio p {
-    width: 50%;
+  .nv-hero li a {
     font-size: 18px;
-  }
+  }  
 
   /* CERTF */
   .nv-certf {

@@ -48,7 +48,7 @@ header {
 
 @media (min-width: 390px) and (max-width: 991px) {
   header {
-    padding: 15px 5%;
+    padding: 25px 5%;
   }
   .nav-link {
     padding: 0;
