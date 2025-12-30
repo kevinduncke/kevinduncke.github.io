@@ -3,7 +3,7 @@ header {
   width: 100%;
   height: auto;
   position: relative;
-  background-color: #212121;
+  background-color: #ffffff;
 }
 #kd-nvbar {
   display: flex;
@@ -29,7 +29,7 @@ header {
 .nav-link {
   font-family: "Exo2-Medium";
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
 }
 .nav-lg {
@@ -39,7 +39,7 @@ header {
   color: #00bbff !important;
 }
 .nav-link:hover {
-  color: #86bbff;
+  color: #ff1616;
 }
 .navbar-toggler:focus {
   outline: none;

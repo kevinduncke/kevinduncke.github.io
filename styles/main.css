@@ -11,21 +11,19 @@
   letter-spacing: 1px;
 }
 .nv-sect h1 {
-  color: #132aaa;
+  color: #c1272d;
 }
 .nv-sect h2 {
   color: #000000 !important;
 }
-.nv-hero ul {
-  list-style: none;
-  padding: 0;
-}
 .nv-hero a {
   font-family: "Exo2-Medium";
   text-decoration: none;
-  color: #132aaa;
+  color: #ff1616;
 }
 .nv-subul {
+  list-style: none;
+  padding: 0;  
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -72,7 +70,7 @@
 @media (min-width: 992px) {
   /* HERO */
   .nv-sect {
-    margin: 8% 5%;
+    margin: 4% 5%;
   }
   .nv-sect h1 {
     font-size: 55px;
@@ -87,10 +85,7 @@
     width: 65%;
   }
   .nv-hero {
-    display: flex;
-    column-gap: 10%;
-    flex-wrap: wrap;
-    align-items: center;
+    display: block;
   }
   #nv-bprofile {
     height: 300px;
@@ -107,7 +102,8 @@
   .nv-hero div {
     width: 75%;
   }
-  .nv-subul li {
-    margin: 0;
+  .nv-subul {
+    justify-content: flex-start;
+    gap: 2.5%;
   }
 }
