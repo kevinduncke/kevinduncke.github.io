@@ -7,6 +7,7 @@ body {
     background-color: #FFFFFF;
     color: #000000;
 }
+/* -- EXO 2 -- */
 @font-face {
     font-family: Exo2-Light;
     src: url(./res/fonts/Exo/Exo2-Light.ttf);
@@ -18,4 +19,18 @@ body {
 @font-face {
     font-family: Exo2-Bold;
     src: url(./res/fonts/Exo/Exo2-Bold.ttf);
+}
+
+/* -- INTER -- */
+@font-face {
+    font-family: Inter-Regular;
+    src: url(./res/fonts/Inter/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-Medium;
+    src: url(./res/fonts/Inter/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-Semibold;
+    src: url(./res/fonts/Inter/Inter_18pt-Semibold.ttf);
 }

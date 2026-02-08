@@ -2,7 +2,40 @@
 .nv-work h1 {
   color: #000000;
 }
-
+.nv-work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 3%;
+  justify-content: space-between;
+}
+.nv-work-grid a {
+  width: 48.5%;
+  text-decoration: none;
+  color: #000000;
+}
+.nv-work-item {
+  background-color: #cef6e8;
+  padding: 45px 25px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.nv-work-item-img {
+  width: 35%;
+}
+.nv-work-item-info {
+  width: 65%;
+}
+.nv-work-item-info h2 {
+  font-family: "Inter-Semibold";
+  font-size: 25px;
+}
+.nv-work-item-info p {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+}
 /*------------------- MOBILE --------------------*/
 @media (min-width: 390px) and (max-width: 991px) {
   /* WORK */
